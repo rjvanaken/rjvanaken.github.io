@@ -1,0 +1,42 @@
+body {
+    font-family: Mulish;
+    
+}
+#navBar {
+    background-color: #FEFCF9;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+}
+#navigation {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 0px 95%;
+    margin-right: 0px 5%;
+    justify-content: space-evenly;
+    padding-left: 45%;
+    padding-right: 10%;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#heroGrid {
+    background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
+    /* background-image: url("../Style/Images/hero background full.png"); */
+    height: 464px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1,0.);
+    background-position: 0%;
+    align-content: center;
+    justify-content: center;
+    /* margin: 0px 5%; */
+}
+h1 {
+    font-family: TiemposHeadline;
+}
