@@ -1,7 +1,8 @@
 body {
     font-family: Mulish;
     background-color: #FEFCF9;
-    margin: 0px 0px;
+    margin: 0;
+    padding: 0;
     
 }
 #navBar {
@@ -53,7 +54,7 @@ body {
     background-color: #799491;
     display: flex;
     flex-direction: row;
-    height: 125px;
+    height: 135px;
     width: 100%;
     align-items: center;
     
