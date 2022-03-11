@@ -3,6 +3,7 @@ body {
     background-color: #FEFCF9;
     margin: 0 115px;
     padding: 0;
+    max-width: auto;
     
 }
 #header {
@@ -44,7 +45,71 @@ body {
     background-position: 0%;
     align-content: center;
     justify-content: center;
-    /* margin: 0px 5%; */
+}
+.placeholder {
+    max-width: 70%;
+    max-height: 70%;
+    height: 300px;
+}
+
+
+
+/* SKILLGRID STYLING */
+
+#skillGrid {
+    max-height: 530px;
+    max-width: 1255px;
+    width: auto;
+    /* align-content: center; */
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+    
+}
+#cardContainer {
+    display: grid;
+    grid-template-rows: 290px;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-template-areas:
+    "uxWriting accessibility webDevelopment";
+    width: auto;
+}
+
+.selectedSkill {
+    width: 332px;
+    height: 290px;
+    border: 1px solid #C7C5C3;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+#uxWriting {
+    grid-area: uxWriting;
+    margin: 0 0;
+}
+
+#accessibility {
+    grid-area: accessibility;
+    /* margin-left: 107px; */
+    margin: 0 0;
+}
+#webDevelopment {
+    grid-area: webDevelopment;
+    /* margin-left: 107px; */
+    margin: 0 0;
+}
+
+
+
+
+
+
+/* FOOTER STYLING */
+
+
+#footer p {
+    align-items: center;
 }
 
 #footerGrid {
@@ -62,7 +127,7 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     padding-top: 16px;
-/*     padding-bottom: 16px; */
+    /*     padding-bottom: 16px; */
     padding-left: 115px;
     margin: 0px 5%;
     
@@ -84,6 +149,7 @@ body {
     justify-content: space-between;
     
 }
+
 #socialContainer {
     display: flex;
     flex-direction: row;
@@ -94,10 +160,6 @@ body {
     width: 144px;
     justify-content: space-between;
 }
-#footer p {
-    align-items: center;
-}
-
 
 
 /* Text Styling */
