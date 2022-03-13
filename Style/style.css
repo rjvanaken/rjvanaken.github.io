@@ -50,7 +50,6 @@ body {
 }
 
 #heroIntro {
-    /* display: inline-block; */
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -60,18 +59,13 @@ body {
 
 #heroContent {
     display: grid;
-    grid-gap: 16px;
+    grid-gap: 32px;
     grid-template-columns: 1fr 1fr;
-    /* width: max-content; */
-    /* align-items: center; */
-    /* margin: 32px; */
     background: rgba(254, 252, 249, 0.84);
     border-radius: 15px 15px 0px 0px;
     padding: 45px 120px;
-    /* align-items: center; */
     justify-content: space-around;
     width: auto;
-    /* position: relative; */
 
 }
 
@@ -93,7 +87,6 @@ body {
     max-height: 70%; */
 }
 #heroImageContainer {
-    /* /* align-content: right; */
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -117,12 +110,12 @@ body {
     grid-template-areas:
     "uxWriting accessibility webDevelopment";
     align-items: center;
-    grid-gap: 107px;
+    grid-gap: 88px;
     /* height: 500px; */
     margin: 120px 0px;
     justify-content: space-between;
-    /* margin-left: 100px;
-    margin-right: 100px; */
+    margin-left: 138px;
+    margin-right: 138px;
     
 }
 
@@ -160,6 +153,56 @@ body {
     justify-content: flex-start;
 
 }
+
+
+
+
+
+/* PROJECT GRID STYLING */
+
+
+
+#projectGrid {
+    margin: 0 153px;
+    display: grid;
+    grid-gap: 56px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projectCard {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 0px; */
+    /* grid-template-columns: 55% 40% 5%; */
+    background-color: #FFF;
+    border-radius: 15px;
+    border: 1px solid #C7C5C3;
+    padding: 40px 40px;
+    justify-content: space-around;
+    width: auto;
+    align-content: center;
+}
+
+.projectInfo {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.tagContainer {
+    display: flex;
+    grid-gap: 16px;
+    flex-direction: row;
+    /* padding-top: 20px; */
+    /* margin-top: 30px; */
+
+}
+/* .viewProject {
+    margin-bottom: 30px;
+} */
 
 
 
@@ -222,6 +265,10 @@ body {
 }
 
 
+
+
+
+
 /* Text Styling */
 
 #h1NoMargin {
@@ -236,17 +283,21 @@ h1 {
     line-height: 49px;
     letter-spacing: 0em;
     text-align: left;
+    color: #464545;
     
     
 }
 h2 {
     font-family: Tiempos Headline;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 38px;
+    line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
+    color: #464545;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 h3 {
@@ -257,6 +308,7 @@ h3 {
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
+    color: #464545;
 }
 
 p {
@@ -267,6 +319,10 @@ p {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;  
+    color: #464545;
+}
+p.projectSummary {
+    font-size: 18px;
 }
 
 .heroText {
@@ -372,7 +428,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 12.5px 12px;
-    position: static;
+    /* position: static; */
     width: fit-content;
     height: 23px;
     right: 250px;
