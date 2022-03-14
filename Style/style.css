@@ -1,10 +1,14 @@
 body {
     font-family: Mulish;
     background-color: #FEFCF9;
-    margin: 0 115px;
+    margin: 0 0px;
     padding: 0;
     max-width: auto;
     
+}
+
+#siteContent {
+    margin: 0 115px;
 }
 #header {
     background-color: #FEFCF9;
@@ -14,26 +18,45 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #C7C5C3;
 }
 #rvaLogo {
     /* padding-left: 115px; */
-    margin: 0px 5%;
+    /* margin: 0px 5%; */
+    padding-left: 128px;
 }
 #navigation {
     display: flex;
-    margin: 0px 5%;
+    /* margin: 0px 5%; */
     /* width: 252px; */
     width: 345px;
     flex-direction: row;
     /* align-items: flex-start; */
     /* margin-left: 0px 95%; */
     /* margin-right: 0px 5%; */
-    justify-content: space-between;
-    /* padding-right: 115px; */
-    align-content: flex-end;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    justify-content: right;
+    gap: 32px;
+    padding-right: 128px;
+    align-content: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #464545;
 }
+
+a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    padding: 4px 4px;
+}
+
+a.navSelected {
+    border-bottom: 2px solid #A2798F;
+    border-radius: 2px;
+}
+
 #heroGrid {
     background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
     /* background-image: url("../Style/Images/hero background full.png"); */
@@ -45,7 +68,7 @@ body {
     justify-content: center;
     padding: 32px 32px;
     padding-bottom: 0;
-    border-radius: 15px 15px 0px 0px;
+    /* border-radius: 15px 15px 0px 0px; */
     
 }
 
@@ -66,6 +89,7 @@ body {
     padding: 45px 120px;
     justify-content: space-around;
     width: auto;
+    margin: 0px 115px;
 
 }
 
@@ -82,10 +106,10 @@ body {
     height: 500px;
     align-items: center;
 }
-#heroImage{
-    /* max-width: 100%;
-    max-height: 70%; */
-}
+/* #heroImage{
+    max-width: 100%;
+    max-height: 70%;
+} */
 #heroImageContainer {
     justify-content: center;
     display: flex;
