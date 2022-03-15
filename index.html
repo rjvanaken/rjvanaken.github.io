@@ -126,16 +126,47 @@
     </div>
   </section>
 
-
+  
   <section id="contactFormGrid">
-    <h2>Want to chat with me? <span class="primaryPink">Send me an email!</span></h2>
-    <p class="formFieldName">NAME</p>
-    <p class="formFieldName">EMAIL ADDRESS</p>
-    <p class="formFieldName">YOUR MESSAGE</p>
-    <button class="primaryButton">Send Message</button>
-
-
+    <!-- <label class="formFieldName">NAME</label>
+      <label class="formFieldName">EMAIL ADDRESS</label>
+      <label class="formFieldName">YOUR MESSAGE</label>
+      <button class="primaryButton">Send Message</button> -->
+      
+      
+      <form>
+        <div id="contactForm">
+        <h2 id="formTitle">Want to chat with me? <span class="primaryPink">Shoot me an email!</span></h2>
+      <div id="nameEmailContainer">
+      <div id="nameContainer">
+        <label for="nameInput" class="formFieldName">NAME</label><br>
+        <input type="text" placeholder="Enter your name" name="name" id="nameInput" class="formInput" required>
+      </div>
+      <div id="emailContainer">
+        <label for="emailInput" class="formFieldName">EMAIL ADDRESS </label><br>
+        <input type="email" placeholder="Enter your email" name="email" id="emailInput" class="formInput" required>
+      </div>
+    </div>
+      <div id="messageContainer">
+        <label for="messageInput" class="formFieldName">YOUR MESSAGE</label><br>
+        <textarea type="text" placeholder="Write your message here" name="message" id="messageInput" class="formInput" required></textarea>
+      </div>
+      <div>
+        <input id="sendEmailButton" type="submit" class="primaryButton" value="Send Message">
+      </div>
+    </div>
+    </form>
+    
+    <!-- <input type="button" class="primaryButton" onclick="alert('Your email has been sent.')" value="Send Message"> -->
+  
+  
+  
   </section>
+
+
+
+
+
 
 </div>
   <section id="footerGrid">

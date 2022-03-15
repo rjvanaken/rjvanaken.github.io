@@ -236,6 +236,69 @@ a:visited {
 
 
 
+/* EMAIL FORM STYLING */
+.formInput {
+    margin-top: 8px;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+    border: 1px solid #C7C5C3;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+#nameInput, #emailInput {
+    width: 289px;
+    height: 45px;
+    padding: 0px 5px;
+    
+}
+#messageInput {
+    height: 209px;
+    width: 594px;
+    padding: 5px 5px;
+}
+
+#contactForm {
+    justify-content: center;
+    display: grid;
+    row-gap: 16px;
+    /* grid-template-columns: fit-content;
+    grid-template-rows: auto; */
+    grid-template-areas:
+    "formTitle" 
+    "nameEmailContainer"
+    "messageContainer"
+    "sendEmailButton";
+}
+
+#contactFormGrid {
+    margin: 128px 308px;
+    height: auto;
+}
+#nameEmailContainer {
+    display: grid;
+    align-items: center;
+    column-gap: 16px;
+    /* grid-template-columns: max-content; */
+    grid-template-areas: 
+    "nameContainer emailContainer";
+    grid-area: nameEmailContainer;  
+}
+
+#nameContainer {
+    grid-area: nameContainer;
+}
+#emailContainer {
+    grid-area: emailContainer;
+}
+#messageContainer {
+    grid-area: messageContainer;
+}
+
+/* #sendEmailButton {
+    margin-top: 32px;
+} */
+
+
 
 /* FOOTER STYLING */
 
@@ -328,8 +391,15 @@ h2 {
     color: #464545;
     margin-top: 0;
     margin-bottom: 0;
-    
 }
+#formTitle {
+    text-align: left;
+    /* display: flex; */
+    max-width: 589;
+    font-size: 28px;
+    letter-spacing: 0.005em;
+}
+
 h3 {
     font-family: Tiempos Headline;
     font-size: 20px;
@@ -341,7 +411,7 @@ h3 {
     color: #464545;
 }
 
-p {
+p, label{
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -377,6 +447,9 @@ p.projectSummary {
 .primaryPink {
     color: #A2798F;
 }
+
+
+/* BUTTONS */
 
 .primaryButton {
     display: flex;
