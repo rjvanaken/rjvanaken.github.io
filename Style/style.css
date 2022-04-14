@@ -260,12 +260,36 @@ a:visited {
 /* THE DIV NEEDS TO HAVE THE IMAGE SPECIFIC CLASS SO IT can have the background be the image so it resizes like the hero*/
 
 #idea {
-
-    width: 40%;
-    height: 40%;
+    background-image: url("../Style/Images/IDEA-project-card2.png");
+    width: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    
 }
+#travelease {
+    background-image: url("../Style/Images/travelease-project-card.png");
+    width: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+}
+#asap {
+    background-image: url("../Style/Images/asap-project-card.png");
+    width: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+}
+
 .projectImage {
     margin-right: 48px;
+  
 
 
 }
