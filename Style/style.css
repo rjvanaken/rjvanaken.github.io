@@ -189,8 +189,15 @@ a:visited {
     justify-content: flex-start;
 
 }
-
-
+#ux-writing-image {
+    width: 30%;
+}
+#accessibility-image {
+    width: 23%;
+}
+#web-dev-image {
+    width: 40%;
+}
 
 
 
@@ -293,6 +300,17 @@ a:visited {
 
 
 }
+
+
+/* #accessibility-container {
+    background-image: url("../Style/Images/1.png");
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
 
 /* EMAIL FORM STYLING */
 .formInput {
@@ -617,6 +635,12 @@ p.projectSummary {
     margin: 0;
      
 }
+
+
+
+
+
+
 
 
 
