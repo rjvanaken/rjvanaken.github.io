@@ -35,7 +35,7 @@ body {
     /* margin-left: 0px 95%; */
     /* margin-right: 0px 5%; */
     justify-content: right;
-    gap: 32px;
+    gap: 24px;
     padding-right: 128px;
     align-content: center;
     font-family: 'Mulish';
@@ -46,19 +46,44 @@ body {
     color: #464545;
 }
 
-a {
+a.navLink {
     text-decoration: none;
     padding-bottom: 3px;
     padding: 4px 4px;
+    border-radius: 3px;
+    font-weight: 500;
 }
 
-a.navSelected {
+.navSelected, .navDefault {
+    padding-bottom: 3px;
+}
+div.navDefault {
+    border-bottom: none;
+}
+div.navSelected {
     border-bottom: 2px solid #A2798F;
     border-radius: 2px;
 }
 
-a:visited {
+
+a.navLink:link {
+    color: #464545;
+}
+
+a.navLink:visited {
     color: inherit;
+}
+
+a.navLink:hover {
+    background-color: #EBDADA;
+}
+/* a.navLink:focus {
+} */
+
+a.navLink:active {
+    color:#A2798F;
+    background-color: #EBDADA;
+    font-weight: bold;
 }
 
 #heroGrid {
@@ -103,6 +128,7 @@ a:visited {
     /* grid-gap: 16px; */
     grid-template-columns: 1fr 1fr;
     width: max-content;
+    height: 45px;
 }
 
 .placeholder {
@@ -569,9 +595,17 @@ p.projectSummary {
     top: 471px;
     border-radius: 6px;
     border: none;
-    width: fit-content;    
+    width: fit-content;
 }
 
+
+a.button {
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    height: inherit;
+    box-sizing: border-box;
+}
 #CTA{
     background-color: #799491;
     color: #FEFCF9;
@@ -582,6 +616,7 @@ p.projectSummary {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+    height: 45px;
 }
 
 #outline {
@@ -601,12 +636,11 @@ p.projectSummary {
 }
 
 
-
-
-
-
 .buttonIcon {
     margin-left: 10px;
+    width: 20px;
+    height: 21px;
+    
 }
 .projectTag {
     display: flex;
@@ -636,9 +670,47 @@ p.projectSummary {
      
 }
 
+a#CTA.secondary.button:link {
+    color: #FEFCF9;
+    background-color: #FEFCF9;
+}
+a#CTA.secondary.button:visited {
+    color: #FEFCF9;
+}
+a#CTA.secondary.button:hover {
+    color: #464545;
+    background-color: #C3E3E0;
+}
+a#CTA.secondary.button:focus {
+    color: #FEFCF9;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+a#CTA.secondary.button:active {
+    background-color: #4E726E;
+    box-shadow: none;
+}
 
-
-
+a#outline.secondary.button:link {
+    color: #799491;
+    background-color: #FEFCF9;
+}
+a#outline.secondary.button:visited {
+    color: #799491;
+}
+a#outline.secondary.button:hover {
+    color: #464545;
+    background-color: #C3E3E0;
+    outline: none;
+}
+a#outline.secondary.button:focus {
+    background-color: #FEFCF9;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+a#outline.secondary.button:active {
+    background-color: #4E726E;
+    box-shadow: none;
+    outline: none;
+}
 
 
 

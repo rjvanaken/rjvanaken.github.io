@@ -11,10 +11,18 @@
   <section id="header">
     <img id="rvaLogo" src="/Style/Images/RVA Logo.svg" alt="RVA Logo">
     <div id="navigation">
-      <a href="#" class="navSelected">Home</a>
-      <!-- <a href="#" class="navDefault">Projects</a> -->
-      <a href="/Files/Resume.pdf" class="navDefault">Resume</a>
-      <a href="#" class="navDefault">About Me</a>
+      <div id="navHome" class="navSelected">
+      <a class="navLink" href="#">Home</a>
+      </div>
+      <!-- <div id="navProjects" class="navDefault">
+        <a class="navLink" href="#projectsAnchor">Projects</a>
+      </div> -->
+      <div id="navResume" class="navDefault">
+        <a class="navLink" href="/Files/Resume.pdf">Resume</a>
+      </div>
+      <div id="navAboutMe" class="navDefault">
+      <a class="navLink" href="#">About Me</a>
+      </div>
     </div>
     <!-- <div class="CTA">Contact Me</div> -->
   </section>
@@ -27,145 +35,159 @@
           <h1 id="h1NoMargin">Hello there!<br>I'm Rebecca <span class="primaryPink">Van Aken</span></h1>
         </div>
         <div>
-          <p class="heroText">I'm a <span class="heroBold">UX designer</span> and <span class="heroBold">front-end web developer</span> with a strong passion for clean, accessible design, effective UX writing, and responsive web development. Thank you for visiting my portfolio. Feel free to take a look
+          <p class="heroText">I'm a <span class="heroBold">UX designer</span> and <span class="heroBold">front-end web
+              developer</span> with a strong passion for clean, accessible design, effective UX writing, and responsive
+            web development. Thank you for visiting my portfolio. Feel free to take a look
             around!</p>
         </div>
         <div id="heroButtons">
-        <button class="secondary" id="CTA">Projects <img class="buttonIcon" src="/Style/Images/Icon/Font Awesome Free/arrow-down.svg"></button>
-        
-        <button class="secondary" id="outline">Contact Me <img class="buttonIcon" src="/Style/Images/Icon/Font Awesome Free/phone.svg"></button>
+          <a href="#projectsAnchor" class="secondary button" id="CTA">Projects <img class="buttonIcon"
+              src="/Style/Images/Icon/Font Awesome Free/arrow-down.svg"></a>
+          <a href="#contactForm" class="secondary button" id="outline">Contact Me <img class="buttonIcon"
+              src="/Style/Images/Icon/Font Awesome Free/phone.svg"></a>
         </div>
       </div>
       <div id="heroImageContainer">
-      <img id="heroImage" src="Style\Images\placeholder.svg" alt="Placeholder">
+        <img id="heroImage" src="Style\Images\placeholder.svg" alt="Placeholder">
       </div>
     </div>
   </section>
 
-<div id="siteContent">
-  <section id="skillGrid">
-    <div id="cardContainer">
-      <div id="uxWriting" class="selectedSkill">
-        <div class="iconContainer" id="ux-writing-container">
-        <img src="Style\Images\ux-Writing.svg" id="ux-writing-image" alt="UX Writing Image">
-      </div>
-        <h3>UX Writing</h3>
-        <p class="skillText">In my 5 years working in QA, designs with inefficient or confusing wording had me considering the user well-before entering the design world. This is how we communicate with our end users, so we must do so effectively.</p>
-      </div>
-      <div id="accessibility" class="selectedSkill">
-        <div class="iconContainer">
-        <img src="Style\Images\accessibility.svg" alt="A paint color palette" id="accessibility-image">
+  <div id="siteContent">
+    <section id="skillGrid">
+      <div id="cardContainer">
+        <div id="uxWriting" class="selectedSkill">
+          <div class="iconContainer" id="ux-writing-container">
+            <img src="Style\Images\ux-Writing.svg" id="ux-writing-image" alt="UX Writing Image">
+          </div>
+          <h3>UX Writing</h3>
+          <p class="skillText">In my 5 years working in QA, designs with inefficient or confusing wording had me
+            considering the user well-before entering the design world. This is how we communicate with our end users,
+            so we must do so effectively.</p>
         </div>
-        <h3>Accessibility</h3>
-        <p class="skillText">As a neurodivergent designer, accessibility concerns will always take a front-seat when prioritizing design tasks and issues. When we design universally, we design for everybody, so it should be a top priority.</p>
-      </div>
-      <div id="webDevelopment" class="selectedSkill">
-        <div class="iconContainer">
-        <img src="Style\Images\web-dev.svg" id="web-dev-image">
+        <div id="accessibility" class="selectedSkill">
+          <div class="iconContainer">
+            <img src="Style\Images\accessibility.svg" alt="A paint color palette" id="accessibility-image">
+          </div>
+          <h3>Accessibility</h3>
+          <p class="skillText">As a neurodivergent designer, accessibility concerns will always take a front-seat when
+            prioritizing design tasks and issues. When we design universally, we design for everybody, so it should be a
+            top priority.</p>
         </div>
-        <h3>Web Development</h3>
-        <p class="skillText">I have experience with HTML, CSS, and a little bit of Javascript. I'm familiar with website platforms like Wordpress and Squarespace, but my preference will always be to code from scratch.</p>
+        <div id="webDevelopment" class="selectedSkill">
+          <div class="iconContainer">
+            <img src="Style\Images\web-dev.svg" id="web-dev-image">
+          </div>
+          <h3>Web Development</h3>
+          <p class="skillText">I have experience with HTML, CSS, and a little bit of Javascript. I'm familiar with
+            website platforms like Wordpress and Squarespace, but my preference will always be to code from scratch.</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+<div id="projectsAnchor"></div>
+
+    <section id="projectGrid">
+      <div class="projectCard project1">
+        <div class="projectImage" id="travelease" alt="travelease image"></div>
+        <div class="projectInfo">
+          <div class="projectDetails">
+            <h2>Travelease: Your Mobile Airport <br> Companion</h2>
+            <p class="projectSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus enim sed sit in
+              ipsum
+              semper id. Id mi facilisi ullamcorper facilisi sapien. Feugiat adipiscing a, eget dignissim augue mauris,
+              phasellus. Lorem placerat justo morbi velit. Feugiat pulvinar ut id lobortis praesent tristique.</p>
+            <button class="primaryButton viewProject">View Case Study</button>
+            <div class="tagContainer">
+              <p class="projectTag">UX/UI DESIGN</p>
+              <p class="projectTag">MOBILE</p>
+              <p class="projectTag">ACCESSIBILITY</P>
+              <!-- <p class="projectTag">NEURODIVERGENT</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projectCard project2 ">
+        <div class="projectImage" id="asap" alt="ASAP"></div>
+        <div class="projectInfo">
+          <div class="projectDetails">
+            <h2>Redesigning the Adopt a South African Preschool Website</h2>
+            <p class="projectSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus enim sed sit in
+              ipsum
+              semper id. Id mi facilisi ullamcorper facilisi sapien. Feugiat adipiscing a, eget dignissim augue mauris,
+              phasellus. Lorem placerat justo morbi velit. Feugiat pulvinar ut id lobortis praesent tristique.</p>
+            <button class="primaryButton viewProject">View Case Study</button>
+            <div class="tagContainer">
+              <p class="projectTag">UX/UI DESIGN</p>
+              <p class="projectTag">UX RESEARCH</p>
+              <p class="projectTag">NON-PROFIT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projectCard project3">
+        <div class="projectImage" id="idea"></div>
+        <div class="projectInfo">
+          <div class="projectDetails">
+            <h2>Redesigning the Individuals with Disabilities Education Act Website</h2>
+            <p class="projectSummary">As part of my UX/UI Bootcamp, I was tasked with redesigning a government website.
+              In completing this project, I encountered a number of setbacks. Take a look to see what exactly I dealt
+              with as a learning designer and how something so small made a huge impact in my progress.</p>
+            <button class="primaryButton viewProject">View Case Study</button>
+            <div class="tagContainer">
+              <p class="projectTag">WEB UX/UI DESIGN</p>
+              <p class="projectTag">REDESIGN</p>
+              <p class="projectTag">GOVERNMENT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-  <section id="projectGrid">
-    <div class="projectCard project1">
-      <div class="projectImage" id="travelease" alt="travelease image"></div>
-      <div class="projectInfo">
-      <div class="projectDetails">
-        <h2>Travelease: Your Mobile Airport <br> Companion</h2>
-        <p class="projectSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus enim sed sit in ipsum
-          semper id. Id mi facilisi ullamcorper facilisi sapien. Feugiat adipiscing a, eget dignissim augue mauris,
-          phasellus. Lorem placerat justo morbi velit. Feugiat pulvinar ut id lobortis praesent tristique.</p>
-        <button class="primaryButton viewProject">View Case Study</button>
-        <div class="tagContainer">
-          <p class="projectTag">UX/UI DESIGN</p>
-          <p class="projectTag">MOBILE</p>
-          <p class="projectTag">ACCESSIBILITY</P>
-          <!-- <p class="projectTag">NEURODIVERGENT</p> -->
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="projectCard project2 ">
-      <div class="projectImage" id="asap" alt="ASAP"></div>
-      <div class="projectInfo">
-      <div class="projectDetails">
-        <h2>Redesigning the Adopt a South African Preschool Website</h2>
-        <p class="projectSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus enim sed sit in ipsum
-          semper id. Id mi facilisi ullamcorper facilisi sapien. Feugiat adipiscing a, eget dignissim augue mauris,
-          phasellus. Lorem placerat justo morbi velit. Feugiat pulvinar ut id lobortis praesent tristique.</p>
-        <button class="primaryButton viewProject">View Case Study</button>
-        <div class="tagContainer">
-          <p class="projectTag">UX/UI DESIGN</p>
-          <p class="projectTag">UX RESEARCH</p>
-          <p class="projectTag">NON-PROFIT</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="projectCard project3">
-      <div class="projectImage" id="idea"></div>
-      <div class="projectInfo">
-      <div class="projectDetails">
-        <h2>Redesigning the Individuals with Disabilities Education Act Website</h2>
-        <p class="projectSummary">As part of my UX/UI Bootcamp, I was tasked with redesigning a government website. In completing this project, I encountered a number of setbacks. Take a look to see what exactly I dealt with as a learning designer and how something so small made a huge impact in my progress.</p>
-        <button class="primaryButton viewProject">View Case Study</button>
-        <div class="tagContainer">
-          <p class="projectTag">WEB UX/UI DESIGN</p>
-          <p class="projectTag">REDESIGN</p>
-          <p class="projectTag">GOVERNMENT</p>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  
-  <section id="contactFormGrid">
-    <!-- <label class="formFieldName">NAME</label>
+    <section id="contactFormGrid">
+      <!-- <label class="formFieldName">NAME</label>
       <label class="formFieldName">EMAIL ADDRESS</label>
       <label class="formFieldName">YOUR MESSAGE</label>
       <button class="primaryButton">Send Message</button> -->
-      
-      
+
+
       <form>
         <div id="contactForm">
-        <h2 id="formTitle">Want to chat with me? <span class="primaryPink">Shoot me an email!</span></h2>
-      <div id="nameEmailContainer">
-      <div id="nameContainer">
-        <label for="nameInput" class="formFieldName">NAME</label><br>
-        <input type="text" placeholder="Enter your name" name="name" id="nameInput" class="formInput" required>
-      </div>
-      <div id="emailContainer">
-        <label for="emailInput" class="formFieldName">EMAIL ADDRESS </label><br>
-        <input type="email" placeholder="Enter your email" name="email" id="emailInput" class="formInput" required>
-      </div>
-    </div>
-      <div id="messageContainer">
-        <label for="messageInput" class="formFieldName">YOUR MESSAGE</label><br>
-        <textarea type="text" placeholder="Write your message here" name="message" id="messageInput" class="formInput" required></textarea>
-      </div>
-      <div>
-        <input id="sendEmailButton" type="submit" class="primaryButton" value="Send Message">
-      </div>
-    </div>
-    </form>
-    
-    <!-- <input type="button" class="primaryButton" onclick="alert('Your email has been sent.')" value="Send Message"> -->
-  
-  
-  
-  </section>
+          <h2 id="formTitle">Want to chat with me? <span class="primaryPink">Shoot me an email!</span></h2>
+          <div id="nameEmailContainer">
+            <div id="nameContainer">
+              <label for="nameInput" class="formFieldName">NAME</label><br>
+              <input type="text" placeholder="Enter your name" name="name" id="nameInput" class="formInput" required>
+            </div>
+            <div id="emailContainer">
+              <label for="emailInput" class="formFieldName">EMAIL ADDRESS </label><br>
+              <input type="email" placeholder="Enter your email" name="email" id="emailInput" class="formInput"
+                required>
+            </div>
+          </div>
+          <div id="messageContainer">
+            <label for="messageInput" class="formFieldName">YOUR MESSAGE</label><br>
+            <textarea type="text" placeholder="Write your message here" name="message" id="messageInput"
+              class="formInput" required></textarea>
+          </div>
+          <div>
+            <input id="sendEmailButton" type="submit" class="primaryButton" value="Send Message">
+          </div>
+        </div>
+      </form>
+
+      <!-- <input type="button" class="primaryButton" onclick="alert('Your email has been sent.')" value="Send Message"> -->
+
+
+
+    </section>
 
 
 
 
 
 
-</div>
+  </div>
   <section id="footerGrid">
     <div id="footerContainer">
       <img id="rvaLogoFooter" src="Style\Images\RVA Logo footer.svg" alt="RVA Logo">
