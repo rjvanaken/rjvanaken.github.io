@@ -745,9 +745,9 @@ a.primaryButton.button:visited {
     font-weight: 600;
     background-color: #A2798F;
 }
-a.primaryButton.button:hover {
+a#CTA.primaryButton.button:hover {
     color: #464545;
-    background-color: #EBDADA;
+    background-color: #EBDADA !important;
     font-weight: 600;
 }
 a.primaryButton.button:focus {
