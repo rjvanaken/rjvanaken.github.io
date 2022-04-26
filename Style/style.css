@@ -745,7 +745,7 @@ a.primaryButton.button:visited {
     font-weight: 600;
     background-color: #A2798F;
 }
-a.primaryButton.button:hover {
+a.primaryButton.viewProject.button:hover {
     color: #464545;
     background-color: #EBDADA;
     font-weight: 600;
@@ -757,7 +757,7 @@ a.primaryButton.button:focus {
     background-color: #A2798F;
     outline: none;
 }
-a.primaryButton.button:active {
+a.primaryButton.viewProject.button:active {
     background-color: #6F2F52;
     box-shadow: none;
     color: #FEFCF9;
