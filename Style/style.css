@@ -668,7 +668,7 @@ a#outline {
     font-family: Mulish;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
@@ -736,7 +736,7 @@ a#outline.secondary.button:active {
 
 
 a.primaryButton.button:link {
-    color: #FEFCF9 !important;
+    color: #FEFCF9;
     background-color: #A2798F;
     font-weight: 600;
 }
@@ -745,9 +745,9 @@ a.primaryButton.button:visited {
     font-weight: 600;
     background-color: #A2798F;
 }
-a#CTA.primaryButton.button:hover {
+a.primaryButton.button:hover {
     color: #464545;
-    background-color: #EBDADA !important;
+    background-color: #EBDADA;
     font-weight: 600;
 }
 a.primaryButton.button:focus {
