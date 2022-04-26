@@ -764,6 +764,19 @@ a.primaryButton.button:active {
     font-weight: 600;
     outline: none;
 }
+#copyright {
+    text-align: center;
+}
+#sourceCode {
+    color: #FEFCF9 !important;
+    text-align: center !important;
+}
+#sourceCode:link {
+    color: #FEFCF9;
+}
+#sourceCode:visited {
+    color: #FEFCF9;
+}
 
 
 
