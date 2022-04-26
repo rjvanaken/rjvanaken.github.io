@@ -40,7 +40,6 @@ body {
     align-content: center;
     font-family: 'Mulish';
     font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: #464545;
@@ -51,7 +50,7 @@ a.navLink {
     padding-bottom: 3px;
     padding: 4px 4px;
     border-radius: 3px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navSelected, .navDefault {
@@ -83,7 +82,7 @@ a.navLink:hover {
 a.navLink:active {
     color:#A2798F;
     background-color: #EBDADA;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #heroGrid {
@@ -575,7 +574,7 @@ p.projectSummary {
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
@@ -593,6 +592,7 @@ p.projectSummary {
     height: 45px;
     left: calc(50% - 127px/2 - 471.5px);
     top: 471px;
+    font-weight: 600;
     border-radius: 6px;
     border: none;
     width: fit-content;
@@ -605,27 +605,33 @@ a.button {
     color: initial;
     height: inherit;
     box-sizing: border-box;
+    font-weight: 600;
 }
+
+a#outline {
+    font-weight: 600;
+}
+
 #CTA{
     background-color: #799491;
     color: #FEFCF9;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
     height: 45px;
 }
 
-#outline {
+a#outline {
     background-color: #FEFCF9;
     color: #799491;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
@@ -672,46 +678,92 @@ a.button {
 
 a#CTA.secondary.button:link {
     color: #FEFCF9;
-    background-color: #FEFCF9;
+    font-weight: 600;
+    background-color: #799491;
 }
 a#CTA.secondary.button:visited {
     color: #FEFCF9;
+    font-weight: 600;
+    background-color: #799491;
 }
 a#CTA.secondary.button:hover {
     color: #464545;
     background-color: #C3E3E0;
+    font-weight: 600;
 }
 a#CTA.secondary.button:focus {
     color: #FEFCF9;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    outline: none;
 }
 a#CTA.secondary.button:active {
     background-color: #4E726E;
     box-shadow: none;
+    font-weight: 600;
+    outline: none;
 }
 
 a#outline.secondary.button:link {
     color: #799491;
     background-color: #FEFCF9;
+    font-weight: 600;
 }
 a#outline.secondary.button:visited {
     color: #799491;
+    font-weight: 600;
+    background-color: #FEFCF9;
 }
 a#outline.secondary.button:hover {
     color: #464545;
     background-color: #C3E3E0;
     outline: none;
+    font-weight: 600;
 }
 a#outline.secondary.button:focus {
     background-color: #FEFCF9;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    outline: 2px solid #799491;
 }
 a#outline.secondary.button:active {
     background-color: #4E726E;
     box-shadow: none;
     outline: none;
+    font-weight: 600;
 }
 
+
+
+a.primaryButton.button:link {
+    color: #FEFCF9 !important;
+    background-color: #A2798F;
+    font-weight: 600;
+}
+a.primaryButton.button:visited {
+    color: #FEFCF9;
+    font-weight: 600;
+    background-color: #A2798F;
+}
+a.primaryButton.button:hover {
+    color: #464545;
+    background-color: #EBDADA;
+    font-weight: 600;
+}
+a.primaryButton.button:focus {
+    color: #FEFCF9;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    background-color: #A2798F;
+    outline: none;
+}
+a.primaryButton.button:active {
+    background-color: #6F2F52;
+    box-shadow: none;
+    color: #FEFCF9;
+    font-weight: 600;
+    outline: none;
+}
 
 
 
