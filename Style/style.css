@@ -40,8 +40,9 @@ body {
     align-content: center;
     font-family: 'Mulish';
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
+    font-weight: 600;
     color: #464545;
 }
 
@@ -82,7 +83,7 @@ a.navLink:hover {
 a.navLink:active {
     color:#A2798F;
     background-color: #EBDADA;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #heroGrid {
@@ -676,6 +677,10 @@ a#outline {
      
 }
 
+.material-icons.md-24 {font-size: 22px;}
+
+
+
 a#CTA.secondary.button:link {
     color: #FEFCF9;
     font-weight: 600;
@@ -699,6 +704,7 @@ a#CTA.secondary.button:focus {
 }
 a#CTA.secondary.button:active {
     background-color: #4E726E;
+    color: #FEFCF9;
     box-shadow: none;
     font-weight: 600;
     outline: none;
@@ -728,6 +734,7 @@ a#outline.secondary.button:focus {
 }
 a#outline.secondary.button:active {
     background-color: #4E726E;
+    color: #FEFCF9;
     box-shadow: none;
     outline: none;
     font-weight: 600;
@@ -735,35 +742,42 @@ a#outline.secondary.button:active {
 
 
 
-a.primaryButton.button:link {
+a.primaryButton.button:link, input.primaryButton.button:link {
     color: #FEFCF9;
     background-color: #A2798F;
     font-weight: 600;
+    cursor: pointer;
 }
-a.primaryButton.button:visited {
+a.primaryButton.button:visited, input.primaryButton.button:visited {
     color: #FEFCF9;
     font-weight: 600;
     background-color: #A2798F;
+    cursor: pointer;
 }
-a.primaryButton.viewProject.button:hover {
+a.primaryButton.viewProject.button:hover, input.primaryButton.button:hover {
     color: #464545;
     background-color: #EBDADA;
     font-weight: 600;
+    cursor: pointer;
 }
-a.primaryButton.button:focus {
+a.primaryButton.button:focus, input.primaryButton.button:focus {
     color: #FEFCF9;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
     font-weight: 600;
     background-color: #A2798F;
     outline: none;
+    cursor: pointer;
 }
-a.primaryButton.viewProject.button:active {
+a.primaryButton.viewProject.button:active, input.primaryButton.button:active {
     background-color: #6F2F52;
     box-shadow: none;
     color: #FEFCF9;
     font-weight: 600;
     outline: none;
+    cursor: pointer;
+
 }
+
 #copyright {
     text-align: center;
 }
