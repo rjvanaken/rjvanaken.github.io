@@ -637,7 +637,6 @@ a#outline {
     letter-spacing: 0em;
     text-align: center;
     outline: 2px solid #799491;
-    outline-offset: 0ch;
     outline-width: 2px;
     outline-offset: -2px;
 }
