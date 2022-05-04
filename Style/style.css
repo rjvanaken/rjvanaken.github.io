@@ -1,5 +1,5 @@
 body {
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     background-color: #FEFCF9;
     margin: 0 0px;
     padding: 0;
@@ -471,7 +471,7 @@ a.navLink:active {
     margin-bottom: 0;
 }
 h1 {
-    font-family: Tiempos Headline;
+    font-family: Tiempos Headline, 'Times New Roman', Times, serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -483,7 +483,7 @@ h1 {
     
 }
 h2 {
-    font-family: Tiempos Headline;
+    font-family: Tiempos Headline, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -503,7 +503,7 @@ h2 {
 }
 
 h3 {
-    font-family: Tiempos Headline;
+    font-family: Tiempos Headline, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -514,7 +514,7 @@ h3 {
 }
 
 p, label{
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -533,8 +533,8 @@ p.projectSummary {
 }
 
 .heroText {
-    font-family: Mulish;
-    font-size: 20px;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
@@ -543,7 +543,7 @@ p.projectSummary {
     margin-bottom: 32px;
 }
 .heroBold {    
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -572,7 +572,7 @@ p.projectSummary {
     border: none;
     background-color: #A2798F;
     color: #FEFCF9;
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -616,7 +616,7 @@ a#outline {
 #CTA{
     background-color: #799491;
     color: #FEFCF9;
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -629,7 +629,7 @@ a#outline {
 a#outline {
     background-color: #FEFCF9;
     color: #799491;
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -665,7 +665,7 @@ a#outline {
     color: #A2798F;
     box-sizing: border-box;
     border-radius: 6px;
-    font-family: Mulish;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
