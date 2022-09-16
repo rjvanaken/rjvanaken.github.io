@@ -2,17 +2,41 @@
 
 
 /* For extremely small screen devices (595px and below) */
+
+@media only screen and (min-width: 1000px) {
+    .selectedSkill {
+        min-height: 265px;
+        max-height: auto;
+        border: 1px solid #C7C5C3;
+        border-radius: 15px;
+        background-color: white;
+        align-items: center;
+        width: 332px;
+        min-width: 120px;
+        flex: auto;
+    }
+    #cardContainer {
+        display: flex;
+        align-items: center;
+        margin: 120px auto;
+        justify-content: space-between;
+        max-width: 1210px;
+    }
+}
+
+/* 
 @media only screen and (max-width: 600px) {
     #cardContainer {
+        display: block;
         flex-wrap: wrap;
         margin: 96px auto;
         align-items: center;
         justify-content: center;
     }
     #accessibility {
-        margin: 64px 0px;
+        margin: 0px 24px !important; 
     }
-    #selectedSkill {
+    .selectedSkill {
         min-height: 265px;
         max-height: 265px;
         border: 1px solid #C7C5C3;
@@ -25,10 +49,12 @@
     }
     #siteContent {
         margin: auto 64px;
+        align-content: center;
     }
 }
-
+/*
 /* Small screen devices (600px and above) */
+/*
 @media only screen and (min-width: 600px) {
     #cardContainer {
         flex-wrap: wrap;
@@ -37,9 +63,9 @@
         justify-content: center;
     }
     #accessibility {
-        margin: 64px 0px;
+        margin: 0px 64px;
     }
-    #selectedSkill {
+    .selectedSkill {
         min-height: 265px;
         max-height: fit-content;
         border: 1px solid #C7C5C3;
@@ -48,12 +74,14 @@
         align-items: center;
         max-width: 332px;
         min-width: 349px;
-        flex: auto;
+       
     }
     #siteContent {
-        margin: auto 64px;
+        /* margin: auto 64px; */
     }
 }
+
+
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
@@ -69,4 +97,3 @@
 }
 /* and even larger (1410px and below) */
 @media only screen and (max-width: 1410px) {}
-
