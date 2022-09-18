@@ -25,18 +25,18 @@ body {
     /* margin: 0px 5%; */
     padding-left: 128px;
 }
-#navigation {
+.navigation {
     display: flex;
     /* margin: 0px 5%; */
     /* width: 252px; */
     width: 345px;
     flex-direction: row;
+
     /* align-items: flex-start; */
     /* margin-left: 0px 95%; */
     /* margin-right: 0px 5%; */
     justify-content: right;
-    gap: 24px;
-    padding-right: 128px;
+    padding-right: 80px !important;
     align-content: center;
     font-family: 'Mulish';
     font-style: normal;
@@ -46,8 +46,31 @@ body {
     color: #464545;
 }
 
-a.navLink {
+ul {
+    gap: 24px;
+}
+.hamburger {
+
+    margin-right:32px !important;
+    margin-left: none;
+    z-index: 1 !important;
+    position: relative;
+    display: none;
+
+}
+
+
+li {
+    list-style: none;
+    
+}
+
+a {
     text-decoration: none;
+}
+
+a.navLink {
+    text-decoration: none !important;
     padding-bottom: 3px;
     padding: 4px 4px;
     border-radius: 3px;
@@ -57,13 +80,14 @@ a.navLink {
 .navSelected, .navDefault {
     padding-bottom: 3px;
 }
-div.navDefault {
+li.navDefault {
     border-bottom: none;
 }
-div.navSelected {
+li.navSelected {
     border-bottom: 2px solid #A2798F;
     border-radius: 2px;
 }
+
 
 
 a.navLink:link {
@@ -676,7 +700,8 @@ a#outline {
      
 }
 
-.material-icons.md-24 {font-size: 22px;}
+.material-icons-round.buttons {font-size: 22px;}
+.material-icons-round.md-24 {font-size: 24px;}
 
 
 

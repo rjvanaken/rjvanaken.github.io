@@ -1,5 +1,15 @@
+@media only screen and (max-width: 600px) {
+    ul.navigation {
+        display: flex;
+        flex-direction: column !important;
+        position: fixed !important;
+        left: -100%;
 
 
+    }
+
+
+}
 
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 600px) {
