@@ -1,11 +1,17 @@
 @media only screen and (max-width: 600px) {
-    ul.navigation {
-        display: flex;
-        flex-direction: column !important;
-        position: fixed !important;
-        left: -100%;
 
 
+
+
+    .hamburger {
+        margin-left: none;
+        display: block;
+        align-items: center;
+    }
+    #navGroup {
+        display: none;
+        gap: none;
+        padding-right: 128px !important;
     }
 
 
