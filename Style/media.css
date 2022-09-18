@@ -3,56 +3,10 @@
 
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 600px) {
-    #cardContainer {
-        flex-wrap: wrap;
-        margin: 96px auto;
-        align-items: center;
-        justify-content: center;
-    }
-    #accessibility {
-        margin: 64px 0px;
-    }
-    #selectedSkill {
-        min-height: 265px;
-        max-height: 265px;
-        border: 1px solid #C7C5C3;
-        border-radius: 15px;
-        background-color: white;
-        align-items: center;
-        max-width: 332px;
-        min-width: 332px;
-        flex: none;
-    }
-    #siteContent {
-        margin: auto 64px;
-    }
 }
 
-/* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
-    #cardContainer {
-        flex-wrap: wrap;
-        margin: 96px auto;
-        align-items: center;
-        justify-content: center;
-    }
-    #accessibility {
-        margin: 64px 0px;
-    }
-    #selectedSkill {
-        min-height: 265px;
-        max-height: fit-content;
-        border: 1px solid #C7C5C3;
-        border-radius: 15px;
-        background-color: white;
-        align-items: center;
-        max-width: 332px;
-        min-width: 349px;
-        flex: auto;
-    }
-    #siteContent {
-        margin: auto 64px;
-    }
+/* For extremely small screen devices (1000px and below) */
+@media only screen and (max-width: 1000px) {
 }
 
 /* Medium screen devices (768px and above) */
