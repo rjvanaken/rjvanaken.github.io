@@ -115,6 +115,12 @@ a.navLink:active {
     background-color: #EBDADA;
     font-weight: 600;
 }
+a.hamburger {
+    color:#464545
+}
+a.hamburger:visited {
+    color: #464545;
+}
 
 #heroGrid {
     background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
