@@ -60,9 +60,15 @@ ul {
     display: flex;
     align-items: center;
     display: none;
-
-
-
+}
+.closeMobileMenu {
+    margin-left: none;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+section#mobileNav {
+    display: flex;
 }
 
 
@@ -85,6 +91,7 @@ a.navLink {
 
 .navSelected, .navDefault {
     padding-bottom: 3px;
+    width: fit-content;
 }
 li.navDefault {
     border-bottom: none;
@@ -92,6 +99,7 @@ li.navDefault {
 li.navSelected {
     border-bottom: 2px solid #A2798F;
     border-radius: 2px;
+    width: fit-content;
 }
 
 

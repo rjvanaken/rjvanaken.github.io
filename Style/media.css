@@ -20,6 +20,37 @@
         gap: none;
         padding-right: 128px !important;
     }
+    #mobileNav {
+        display: none !important;
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #mobileNavContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mobileNavigation {
+        display: flex;
+        /* margin: 0px 5%; */
+        /* width: 252px; */
+        text-align: center;
+        flex-direction: column;
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #464545;
+        padding: 0px;
+    }
+    ul.mobileNavigation {
+        text-align: center;
+        align-items: center;
+    }
 }
 
 
