@@ -21,14 +21,14 @@
         padding-right: 128px !important;
     }
     #mobileNav {
-        display: none !important;
+        display: flex !important;
         flex-direction: column !important;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
     #mobileNavContainer {
-        display: flex;
+        display: block;
         flex-direction: column;
         text-align: center;
     }
@@ -50,6 +50,11 @@
     ul.mobileNavigation {
         text-align: center;
         align-items: center;
+    }
+    button.hamburger {
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
     }
 }
 

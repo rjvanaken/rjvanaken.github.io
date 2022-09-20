@@ -5,6 +5,7 @@
   <title>My UX Portfolio</title>
   <link href="Style\style.css" rel="stylesheet" type="text/css">
   <link href="Style\media.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="index.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -33,13 +34,13 @@
         </li>
       </ul>
     </div>
-        <a class="hamburger" href="#"><span class="material-icons-round md-24">menu</span></a>
+        <button id="hamburgerBtn" onclick="expandMobileNav()" class="hamburger" href="#"><span class="material-icons-round md-24">menu</span></button>
         <!-- <a class="closeMobileMenu" href="#"><span class="material-icons-round md-24">close</span></a> -->
         <!-- <div class="CTA">Contact Me</div> -->
         
   </header>
-  <section id="mobileNav" >
-<div id="mobileNavContainer">
+  <section id="mobileNav" class="show">
+<div id="mobileNavContainer" class="show">
     <ul class="mobileNavigation">
       <li id="navHome" class="navSelected">
         <a class="navLink" href="#">Home</a>

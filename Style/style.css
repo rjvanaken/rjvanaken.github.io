@@ -6,6 +6,7 @@ body {
     max-width: auto;
     
 }
+.show {display:block;}
 
 #siteContent {
     margin: 0 115px;
