@@ -41,14 +41,25 @@
   </head>
 
 <body>
-    <div w3-include-html="header.html"></div> 
-    <script>
-    includeHTML();
-    </script>
+    <section id="header">
+        <img id="rvaLogo" src="/Style/Images/RVA Logo.svg" alt="RVA Logo">
+        <div id="navigation">
+          <div id="navHome" class="navDefault">
+          <a class="navLink" href="index.html">Home</a>
+          </div>
+          <div id="navProjects" class="navDefault">
+            <a class="navLink" href="#projectsAnchor">Projects</a>
+          </div>
+          <div id="navResume" class="navDefault">
+            <a class="navLink" href="/Files/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          </div>
+          <div id="navAboutMe" class="navSelected">
+          <a class="navLink" href="/about-me.html">About Me</a>
+          </div>
+        </div>
+        <!-- <div class="CTA">Contact Me</div> -->
+      </section>
 
-<section id="projectHero">
-    <p>Hello</p>
-</section>
 
 
 
@@ -56,6 +67,13 @@
 
 
 
+<!-- Footer -->
+
+      <div w3-include-html="footer.html"></div> 
+      <script>
+      includeHTML();
+      </script>
+  
 
 </body>
 </html>
