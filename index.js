@@ -10,4 +10,3 @@ frmvalidator.addValidation("emailInput","email");
 
 frmvalidator.addValidation("messageInput","req","You must enter a message");
 frmvalidator.addValidation("messageInput","maxlen=500");
-
