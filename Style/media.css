@@ -2,6 +2,7 @@
 /* MOBILE HEADER */
 @media only screen and (max-width: 600px) {
 
+
     #header {
         height: 56px;
     }
@@ -56,6 +57,12 @@
         background-color: rgba(255, 255, 255, 0);
         cursor: pointer;
     }
+=======
+}
+
+/* For extremely small screen devices (1000px and below) */
+@media only screen and (max-width: 1000px) {
+
 }
 
 
