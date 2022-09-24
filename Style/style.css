@@ -6,6 +6,7 @@ body {
     max-width: auto;
     
 }
+.show {display:block;}
 
 #siteContent {
     margin: 0 115px;
@@ -129,6 +130,8 @@ a.hamburger {
 a.hamburger:visited {
     color: #464545;
 }
+
+/* HERO SECTION */
 
 #heroGrid {
     background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
@@ -720,9 +723,16 @@ a#outline {
      
 }
 
+
 .material-icons-round.buttons {font-size: 22px;}
 .material-icons-round.md-24 {font-size: 24px;}
 
+mobile-header
+=======
+
+
+
+responsive-merged
 a#CTA.secondary.button:link {
     color: #FEFCF9;
     font-weight: 600;
