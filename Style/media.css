@@ -2,6 +2,7 @@
 /* MOBILE HEADER */
 @media only screen and (max-width: 600px) {
 
+
     #header {
         height: 56px;
     }
@@ -51,6 +52,12 @@
         text-align: center;
         align-items: center;
     }
+
+}
+
+/* For extremely small screen devices (1000px and below) */
+@media only screen and (max-width: 1000px) {
+
 }
 
 
