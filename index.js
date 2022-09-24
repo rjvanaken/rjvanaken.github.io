@@ -11,22 +11,3 @@ frmvalidator.addValidation("emailInput","email");
 frmvalidator.addValidation("messageInput","req","You must enter a message");
 frmvalidator.addValidation("messageInput","maxlen=500");
 
-
-
-
-
-document.getElementById("hamburgerBtn").onclick = function() {expandMobileNav()};
-
-function expandMobileNav() {
-       document.getElementById("mobileNav").classList.toggle("show")
-}
-
-const hamburger = document.querySelector("#hamburger");
-const mobileNav = document.querySelector("#mobileNav");
-const mobileNavContainer = document.querySelector("#mobileNavContainer");
-
-hamburger.addEventListener("click", mobileNav);
-function mobileNav() {
-       hamburger.classList.toggle("active");
-       mobileNavContainer.classList.toggle("active");
-}
