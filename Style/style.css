@@ -6,6 +6,7 @@ body {
     max-width: auto;
     
 }
+.show {display:block;}
 
 #siteContent {
     margin: 0 115px;
@@ -25,19 +26,18 @@ body {
     /* margin: 0px 5%; */
     padding-left: 128px;
 }
-#navigation {
+.navigation {
     display: flex;
     /* margin: 0px 5%; */
     /* width: 252px; */
     width: 345px;
     flex-direction: row;
+
     /* align-items: flex-start; */
     /* margin-left: 0px 95%; */
     /* margin-right: 0px 5%; */
     justify-content: right;
-    gap: 24px;
-    padding-right: 128px;
-    align-content: center;
+    align-content: center !important;
     font-family: 'Mulish';
     font-style: normal;
     font-size: 15px;
@@ -46,8 +46,44 @@ body {
     color: #464545;
 }
 
-a.navLink {
+ul {
+    gap: 24px;
+}
+
+#navGroup {
+    display: flex;
+    gap: none;
+    padding-right: 128px !important;
+
+}
+.hamburger {
+    margin-left: none;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.closeMobileMenu {
+    margin-left: none;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+section#mobileNav {
+    display: none;
+}
+
+
+li {
+    list-style: none;
+    
+}
+
+a {
     text-decoration: none;
+}
+
+a.navLink {
+    text-decoration: none !important;
     padding-bottom: 3px;
     padding: 4px 4px;
     border-radius: 3px;
@@ -56,14 +92,17 @@ a.navLink {
 
 .navSelected, .navDefault {
     padding-bottom: 3px;
+    width: fit-content;
 }
-div.navDefault {
+li.navDefault {
     border-bottom: none;
 }
-div.navSelected {
+li.navSelected {
     border-bottom: 2px solid #A2798F;
     border-radius: 2px;
+    width: fit-content;
 }
+
 
 
 a.navLink:link {
@@ -84,6 +123,12 @@ a.navLink:active {
     color:#A2798F;
     background-color: #EBDADA;
     font-weight: 600;
+}
+a.hamburger {
+    color:#464545
+}
+a.hamburger:visited {
+    color: #464545;
 }
 
 /* HERO SECTION */
@@ -678,8 +723,10 @@ a#outline {
      
 }
 
-.material-icons.buttons {font-size: 22px;}
-.material-icons.md-24 {font-size: 24px;}
+
+.material-icons-round.buttons {font-size: 22px;}
+.material-icons-round.md-24 {font-size: 24px;}
+
 
 
 
