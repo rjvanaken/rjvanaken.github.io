@@ -3,33 +3,72 @@
 
 <head>
   <title>My UX Portfolio</title>
+  <link href="Style\media.css" rel="stylesheet" type="text/css">
   <link href="Style\style.css" rel="stylesheet" type="text/css">
   <link href="Style\media.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="index.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+mobile-header
+
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+=======
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+=======
+responsive-merged
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <script src="gen_validatorv4.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <section id="header">
+  <header id="header">
     <img id="rvaLogo" src="/Style/Images/RVA Logo.svg" alt="RVA Logo">
-    <div id="navigation">
-      <div id="navHome" class="navSelected">
-      <a class="navLink" href="#">Home</a>
-      </div>
-      <!-- <div id="navProjects" class="navDefault">
+    <div id="navGroup">
+      <ul class="navigation">
+        <li id="navHome" class="navSelected">
+          <a class="navLink" href="#">Home</a>
+        </li>
+        <!-- <li id="navProjects" class="navDefault">
         <a class="navLink" href="#projectsAnchor">Projects</a>
-      </div> -->
-      <div id="navResume" class="navDefault">
-        <a class="navLink" href="/Files/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-      </div>
-      <div id="navAboutMe" class="navDefault">
-      <a class="navLink" href="#">About Me</a>
-      </div>
+      </li> -->
+        <li id="navResume" class="navDefault">
+          <a class="navLink" href="/Files/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </li>
+        <li id="navAboutMe" class="navDefault">
+          <a class="navLink" href="#">About Me</a>
+        </li>
+      </ul>
+
     </div>
-    <!-- <div class="CTA">Contact Me</div> -->
+
+    <button id="hamburgerBtn" onclick="expandMobileNav()" class="hamburger" href="#"><span class="material-icons-round md-24">menu</span></button>
+
+        <!-- <a class="closeMobileMenu" href="#"><span class="material-icons-round md-24">close</span></a> -->
+        <!-- <div class="CTA">Contact Me</div> -->
+        
+  </header>
+  <section id="mobileNav" class="show">
+<div id="mobileNavContainer" class="show">
+    <ul class="mobileNavigation">
+      <li id="navHome" class="navSelected">
+        <a class="navLink" href="#">Home</a>
+      </li>
+      <!-- <li id="navProjects" class="navDefault">
+      <a class="navLink" href="#projectsAnchor">Projects</a>
+    </li> -->
+      <li id="navResume" class="navDefault">
+        <a class="navLink" href="/Files/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      </li>
+      <li id="navAboutMe" class="navDefault">
+        <a class="navLink" href="#">About Me</a>
+      </li>
+    </ul>
+  </div>
+
   </section>
 
 
@@ -46,8 +85,14 @@
             around!</p>
         </div>
         <div id="heroButtons">
-          <a href="#projectsAnchor" class="secondary button" id="CTA">Projects <span class="material-icons-round buttons buttonIcon">arrow_downward</span></a>
-          <a href="#contactForm" class="secondary button" id="outline">Contact Me <span class="material-icons-round buttons buttonIcon">call</span></a>
+
+          <a href="#projectsAnchor" class="secondary button" id="CTA">Projects <span
+              class="material-icons-round buttons buttonIcon">arrow_downward</span></a>
+          <a href="#contactForm" class="secondary button" id="outline">Contact Me <span
+              class="material-icons-round buttons buttonIcon">call</span></a>
+
+
+
         </div>
       </div>
       <div id="heroImageContainer">
@@ -83,131 +128,13 @@
           </div>
           <h3>Web Development</h3>
           <p class="skillText">I have experience with HTML, CSS, and a little bit of Javascript. I'm familiar with
-            website platforms such as Wordpress, Wix, and Squarespace, but I prefer to code from scratch, as it allows for the most flexibility.</p>
+            website platforms such as Wordpress, Wix, and Squarespace, but I prefer to code from scratch, as it allows
+            for the most flexibility.</p>
         </div>
       </div>
     </section>
-<div id="projectsAnchor"></div>
-
-    <section id="projectGrid">
-      <div class="projectCard project1">
-        <div class="projectImage" id="travelease" alt="travelease image"></div>
-        <div class="projectInfo">
-          <div class="projectDetails">
-            <h2>Travelease: Your Mobile Airport <br> Companion</h2>
-            <p class="projectSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus enim sed sit in
-              ipsum
-              semper id. Id mi facilisi ullamcorper facilisi sapien. Feugiat adipiscing a, eget dignissim augue mauris,
-              phasellus. Lorem placerat justo morbi velit. Feugiat pulvinar ut id lobortis praesent tristique.</p>
-            <a href="#" class="primaryButton viewProject button">View Case Study</a>
-            <div class="tagContainer">
-              <p class="projectTag">UX/UI DESIGN</p>
-              <p class="projectTag">MOBILE</p>
-              <p class="projectTag">ACCESSIBILITY</P>
-              <!-- <p class="projectTag">NEURODIVERGENT</p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="projectCard project2 ">
-        <div class="projectImage" id="asap" alt="ASAP"></div>
-        <div class="projectInfo">
-          <div class="projectDetails">
-            <h2>Adopt a South African Preschool <br> Website Redesign</h2>
-            <p class="projectSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus enim sed sit in
-              ipsum
-              semper id. Id mi facilisi ullamcorper facilisi sapien. Feugiat adipiscing a, eget dignissim augue mauris,
-              phasellus. Lorem placerat justo morbi velit. Feugiat pulvinar ut id lobortis praesent tristique.</p>
-            <a href="#" class="primaryButton viewProject button">View Case Study</a>
-            <div class="tagContainer">
-              <p class="projectTag">UX/UI DESIGN</p>
-              <p class="projectTag">UX RESEARCH</p>
-              <p class="projectTag">NON-PROFIT</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="projectCard project3">
-        <div class="projectImage" id="idea"></div>
-        <div class="projectInfo">
-          <div class="projectDetails">
-            <h2>Redesigning the Individuals with Disabilities Education Act Website</h2>
-            <p class="projectSummary">As part of my UX/UI Bootcamp, I was tasked with redesigning a government website.
-              In completing this project, I encountered a number of setbacks. Take a look to see what exactly I dealt
-              with as a learning designer and how something so small made a huge impact in my progress.</p>
-            <a href="#" class="primaryButton viewProject button">View Case Study</a>
-            <div class="tagContainer">
-              <p class="projectTag">WEB UX/UI DESIGN</p>
-              <p class="projectTag">REDESIGN</p>
-              <p class="projectTag">GOVERNMENT</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="contactFormGrid">
-      <!-- <label class="formFieldName">NAME</label>
-      <label class="formFieldName">EMAIL ADDRESS</label>
-      <label class="formFieldName">YOUR MESSAGE</label>
-      <button class="primaryButton">Send Message</button> -->
-
-      
-
-      <!-- <form action='/contact-form/image-captcha-1-1/contactform.php' accept-charset='UTF-8' id="emailForm" method="post"> -->
-      <form action="" id="emailForm" method="post">
-        <div id="contactForm">
-          <h2 id="formTitle">Want to chat with me? <span class="primaryPink">Shoot me an email!</span></h2>
-          <div id="nameEmailContainer">
-            <div id="nameContainer">
-              <label for="nameInput" class="formFieldName">NAME</label><br>
-              <input type="text" placeholder="Enter your name" name="name" id="nameInput" class="formInput" required>
-            </div>
-            <div id="emailContainer">
-              <label for="emailInput" class="formFieldName">EMAIL ADDRESS </label><br>
-              <input type="email" placeholder="Enter your email" name="email" id="emailInput" class="formInput"
-                required>
-            </div>
-          </div>
-          <div id="messageContainer">
-            <label for="messageInput" class="formFieldName">YOUR MESSAGE</label><br>
-            <textarea type="text" placeholder="Write your message here" name="message" id="messageInput"
-              class="formInput" required></textarea>
-          </div>
-          <div>
-            <input id="sendEmailButton" type="submit" name="submit" class="primaryButton button" value="Send Message">
-          </div>
-        </div>
-      </form>
-
-      <!-- <input type="button" class="primaryButton" onclick="alert('Your email has been sent.')" value="Send Message"> -->
-
-
-
-    </section>
-
-
-
-
-
-
-  </div>
-  <section id="footerGrid">
-    <div id="footerContainer">
-      <img id="rvaLogoFooter" src="Style\Images\RVA Logo footer.svg" alt="RVA Logo">
-      <p id="copyright">© 2022 Rebecca Van Aken. All rights reserved. <br> <a id="sourceCode" href="https://github.com/rjvanaken/rjvanaken.github.io">Source Code</a></p>
-      <div id="socialContainer">
-        <img id="linkedin" src="Style\Images\Icon\Font Awesome Free\linkedin.svg" alt="LinkedIn Icon">
-        <img id="email" src="Style\Images\Icon\Font Awesome Free\envelope-square.svg" alt="Email Icon">
-        <img id="behance" src="Style\Images\Icon\Font Awesome Free\behance-square.svg" alt="Behance Icon">
-
-
-
-      </div>
-    </div>
-
-  </section>
+    
+    
 
 
 
