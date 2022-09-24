@@ -2,7 +2,15 @@
 
 
 /* For extremely small screen devices (595px and below) */
+
+/* For extremely small screen devices (595px and below) */
+
+/* 1000px for something shifting */
+
+/* SKILL CARD RESPONSIVE */
+/* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 600px) {
+
 
     #heroGrid {
         background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
@@ -62,11 +70,39 @@
     
 
 
+=======
+    #cardContainer {
+        display: block;
+        flex-wrap: wrap;
+        margin: 96px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    #accessibility {
+        margin: 40px 0px !important; 
+    }
+    .selectedSkill {
+        min-height: 265px;
+        max-height: 265px;
+        border: 1px solid #C7C5C3;
+        border-radius: 15px;
+        background-color: white;
+        align-items: center;
+        max-width: 332px;
+        min-width: 332px;
+        flex: none;
+    }
+}
+
+
+=======
+
 }
 
 /* For extremely small screen devices (1000px and below) */
 @media only screen and (max-width: 1000px) {
 }
+
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
@@ -82,4 +118,3 @@
 }
 /* and even larger (1410px and below) */
 @media only screen and (max-width: 1410px) {}
-
