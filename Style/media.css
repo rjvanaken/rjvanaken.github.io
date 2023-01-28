@@ -2,11 +2,6 @@
 /* MOBILE HEADER */
 @media only screen and (max-width: 600px) {
 
-
-mobile-header
-=======
-
-responsive-merged
     #header {
         height: 56px;
     }
@@ -57,14 +52,13 @@ responsive-merged
         align-items: center;
     }
 mobile-header
-=======
+
     button.hamburger {
         border: none;
         background-color: rgba(255, 255, 255, 0);
         cursor: pointer;
     }
-=======
-=======
+
 /* For extremely small screen devices (595px and below) */
 
 /* For extremely small screen devices (595px and below) */
@@ -133,8 +127,6 @@ mobile-header
     }
     
 
-
-=======
     #cardContainer {
         display: block;
         flex-wrap: wrap;
@@ -156,12 +148,6 @@ mobile-header
         min-width: 332px;
         flex: none;
     }
-}
-
-
-=======
-
-responsive-merged
 
 }
 
@@ -184,4 +170,7 @@ responsive-merged
 @media only screen and (min-width: 1200px), (max-width: 1310px) {
 }
 /* and even larger (1410px and below) */
-@media only screen and (max-width: 1410px) {}
+@media only screen and (max-width: 1410px) {
+
+}
+ }
