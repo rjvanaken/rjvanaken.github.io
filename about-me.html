@@ -7,50 +7,82 @@
   <link href="Style\style.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <script src="gen_validatorv4.js" type="text/javascript"></script>
 </head>
 
 <body>
+  <section id="header">
+    <img id="rvaLogo" src="/Style/Images/RVA Logo.svg" alt="RVA Logo">
+    <div id="navigation">
+      <div id="navHome" class="navDefault">
+      <a class="navLink" href="#">Home</a>
+      </div>
+      <div id="navProjects" class="navDefault">
+        <a class="navLink" href="/index.html#projectsAnchor">Projects</a>
+      </div>
+      <div id="navResume" class="navDefault">
+        <a class="navLink" href="/Files/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      </div>
+      <div id="navAboutMe" class="navSelected">
+
+        <!-- <a class="navLink" href="#">About Me</a> -->
+      <a class="navLink" href="/about-me.html">About Me</a>
+
+      </div>
+    </div>
+    <!-- <div class="CTA">Contact Me</div> -->
+  </section>
 
   <div id="siteContent">
-    <section id="skillGrid">
-      <div id="cardContainer">
-        <div id="uxWriting" class="selectedSkill">
-          <div class="iconContainer" id="ux-writing-container">
-            <img src="Style\Images\ux-writing.svg" id="ux-writing-image" alt="A graphic of pens">
+    <section id="aboutMeHeroGrid">
+      <div id="aboutMeContent">
+        <div id="heroIntro">
+        <div id="aboutMeTitle">
+          <div>
+            <h1 id="h1NoMargin">About <span class="primaryPink">Me</span></h1>
           </div>
-          <h3>UX Writing</h3>
-          <p class="skillText">In my 5 years working in QA, designs with inefficient or confusing wording had me
-            considering the user well-before entering the UX world. This is how we communicate with our end users,
-            so we must do so effectively.</p>
         </div>
-        <div id="accessibility" class="selectedSkill">
-          <div class="iconContainer">
-            <img src="Style\Images\Accessibility.svg" alt="A paint color palette" id="accessibility-image">
-          </div>
-          <h3>Accessibility</h3>
-          <p class="skillText">As a neurodivergent designer, accessibility concerns will always take a front-seat when
-            prioritizing design tasks and issues. When we design universally, we design for everybody, so it should be a
-            top priority.</p>
-        </div>
-        <div id="webDevelopment" class="selectedSkill">
-          <div class="iconContainer">
-            <img src="Style\Images\web-dev.svg" alt="computer" id="web-dev-image">
-          </div>
-          <h3>Web Development</h3>
-          <p class="skillText">I have experience with HTML, CSS, and a little bit of Javascript. I'm familiar with
-            website platforms such as Wordpress, Wix, and Squarespace, but I prefer to code from scratch, as it allows for the most flexibility.</p>
+        <p class="aboutMeText">
+          My name is Rebecca Van Aken and I’m from the greater Philadelphia area.
+          <br>
+          <br>
+          I graduated from Elizabethtown College in 2017 with a degree in Early Childhood and Special Education. For the
+          past 5+ years, I’ve been a QA Engineer at a medical software company. I worked on a variety of projects from
+          lab instruments to mobile apps and I’ve learned a lot.
+          <br>
+          <br>
+          In April, 2022 I graduated from a 6 month UX/UI bootcamp from Penn LPS. You can see more about some of the
+          projects I did for that in my portfolio.
+          <br>
+          <br>
+          In my free time, I like to read, write, play games with my family. My favorite ice cream flavor is Mint Chocolate Chip and my favorite place to vacation is the Adirondack Mountains.
+        </p>
+      </div>
+        <div id="unnamedID">
+          <img id="aboutMeImage" src="Style\Images\Pic Placeholder.svg" alt="Placeholder">
         </div>
       </div>
     </section>
-
-
-
-
-
-
   </div>
 
+
+  <section id="footerGrid">
+    <div id="footerContainer">
+      <img id="rvaLogoFooter" src="Style\Images\RVA Logo footer.svg" alt="RVA Logo">
+      <p id="copyright">© 2022 Rebecca Van Aken. All rights reserved. <br> <a id="sourceCode"
+          href="https://github.com/rjvanaken/rjvanaken.github.io">Source Code</a></p>
+      <div id="socialContainer">
+        <img id="linkedin" src="Style\Images\Icon\Font Awesome Free\linkedin.svg" alt="LinkedIn Icon">
+        <img id="email" src="Style\Images\Icon\Font Awesome Free\envelope-square.svg" alt="Email Icon">
+        <img id="behance" src="Style\Images\Icon\Font Awesome Free\behance-square.svg" alt="Behance Icon">
+
+      </div>
+    </div>
+
   </section>
+</body>
+</html>
