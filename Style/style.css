@@ -355,8 +355,9 @@ a.navLink:active {
 }
 #messageInput {
     height: 209px;
-    width: 594px;
     padding: 5px 5px;
+    width: 594px;
+    min-width: max-content;
 }
 
 #contactForm {
@@ -368,23 +369,44 @@ a.navLink:active {
     grid-template-areas:
     "formTitle" 
     "nameEmailContainer"
-    "messageContainer"
+    "messageInputContainer"
     "sendEmailButton";
 }
 
 #contactFormGrid {
-    margin: 128px 308px;
+    margin: 128px auto;
     height: auto;
 }
 #nameEmailContainer {
-    display: grid;
+    display: flex;
+    max-width: 594px;
+    min-width: fit-content;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 16px;
+    row-gap: 16px;
     /* grid-template-columns: max-content; */
     grid-template-areas: 
     "nameContainer emailContainer";
     grid-area: nameEmailContainer;  
 }
+
+#messageInputContainer {
+    display: flex;
+    max-width: 594px;
+    min-width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 16px;
+    /* grid-template-columns: max-content; */
+    grid-template-areas: 
+    "messageContainer";
+    grid-area: messageInputContainer;  
+}
+
 
 #nameContainer {
     grid-area: nameContainer;
@@ -498,8 +520,12 @@ h2 {
     text-align: left;
     /* display: flex; */
     max-width: 589;
+    min-width: 291px;
     font-size: 28px;
     letter-spacing: 0.005em;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
 }
 
 h3 {

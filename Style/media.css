@@ -1,7 +1,20 @@
+/* SITE CONTENT */
+/* @media only screen and (max-width: 600px) {
+        #siteContent {
+            margin: auto;
+        }
+} */
+
+
+/* SKILL GRID MEDIA QUERIES */
 
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 600px) {
 
+
+#siteContent {
+    max-width: 600px;
+}
 
     #cardContainer {
         display: flex;
@@ -20,8 +33,8 @@
         border-radius: 15px;
         background-color: white;
         align-items: center;
-        max-width: 332px;
-        min-width: 300px;
+        max-width: 332px !important;
+        min-width: 332px;
         flex: none;
     }
 }
@@ -47,3 +60,84 @@
 /* and even larger (1410px and below) */
 @media only screen and (max-width: 1410px) {}
 
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+/* CONTACT FORM MEDIA QUERIES */
+
+    @media only screen and (max-width: 862px) {
+
+        #contactFormGrid {
+            width: auto;
+        }
+        #nameEmailContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center !important;
+            justify-content: left !important;
+            flex-wrap: wrap;
+            column-gap: 16px;
+            /* grid-template-columns: max-content; */
+            grid-template-areas: 
+            "nameContainer emailContainer";
+            grid-area: nameEmailContainer;  
+            }
+        
+        #messageInputContainer  {
+            display: flex !important;
+            flex-direction: row;
+            align-items: center !important;
+            justify-content: center !important;
+            flex-wrap: wrap;
+            min-width: fit-content;
+            max-width: 289px !important;
+            }
+        
+        #messageInput {
+            width: 289px;
+            display: flex;
+            align-content: center;
+
+            }
+        
+        #contactForm {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            /* grid-template-columns: fit-content;
+            grid-template-rows: auto; */
+            grid-template-areas:
+            "formTitle" 
+            "nameEmailContainer"
+            "messageInputContainer"
+            "sendEmailButton";
+            }
+        }
+
+    
+    
+    
+    /* For extremely small screen devices (1000px and below) */
+    @media only screen and (max-width: 1000px) {
+    }
+    
+    /* Medium screen devices (768px and above) */
+    @media only screen and (min-width: 768px) {
+    }
+    
+    /* Big screen devices (889px and above) */
+    @media only screen and (min-width: 889px) {
+    
+    }
+    
+    /* Extra big screen devices (1200px and above) */
+    @media only screen and (min-width: 1200px), (max-width: 1310px) {
+    }
+    /* and even larger (1410px and below) */
+    @media only screen and (max-width: 1410px) {}
