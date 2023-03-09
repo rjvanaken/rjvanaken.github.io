@@ -585,6 +585,21 @@ p.projectSummary {
 }
 
 
+/* ABOUT ME */
+#subpageDecor {
+    background-image: url("../Style/Images/SubpageDecor.png");
+    width: auto;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    background-position-y: -10px;
+    justify-content: center;
+    box-shadow: inset 0px 3.5px 4px rgba(70, 69, 69, 0.18);
+}
+
+
+
 /* BUTTONS */
 
 .primaryButton {
