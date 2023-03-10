@@ -431,6 +431,7 @@ a.navLink:active {
 
 #footer p {
     align-items: center;
+    margin: 0px;
 }
 
 #footerGrid {
@@ -440,6 +441,7 @@ a.navLink:active {
     height: 135px;
     width: 100%;
     align-items: center;
+    margin: 0px !important;
     
     /* justify-content: space-between; */
 }
