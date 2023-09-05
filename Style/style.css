@@ -747,13 +747,13 @@ a#outline {
     flex-shrink: 0; */
     
     display: flex;
-    width: 631px;
+    width: auto;
     height: 470px;
     /* padding: 0px 149px; */
     align-items: center;
     gap: 32px;
     flex-shrink: 0;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
 
 }
