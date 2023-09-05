@@ -18,8 +18,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     /* border-bottom: 1px solid #C7C5C3; */
 }
+
 #rvaLogo {
     /* padding-left: 115px; */
     /* margin: 0px 5%; */
@@ -28,15 +30,14 @@ body {
 #navigation {
     display: flex;
     /* margin: 0px 5%; */
-    /* width: 252px; */
-    width: 345px;
+    width: fit-content;
+    /* max-width: fit-content; */
     flex-direction: row;
     /* align-items: flex-start; */
     /* margin-left: 0px 95%; */
     /* margin-right: 0px 5%; */
     justify-content: right;
     gap: 24px;
-    padding-right: 128px;
     align-content: center;
     font-family: 'Mulish';
     font-style: normal;
@@ -44,6 +45,21 @@ body {
     line-height: 24px;
     font-weight: 600;
     color: #464545;
+}
+#CTAnav {
+    display: flex;
+    /* margin: 0px 5%; */
+    flex-direction: row;
+    /* width: fit-content; */
+    /* align-items: flex-end; */
+    /* margin-left: 0px 95%; */
+    /* margin-right: 0px 5%; */
+
+    gap: 64px;
+    /* padding-right: 128px; */
+    align-items: center;
+    color: #464545;
+    padding-right: 128px;
 }
 
 a.navLink {
@@ -719,6 +735,39 @@ a#outline {
     margin: 0;
      
 }
+
+
+#aboutMeContent, #aboutMeGrid {
+    /* display: flex;
+    width: 1440px;
+    height: 470px;
+    padding: 0px 149px;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0; */
+    
+    display: flex;
+    width: 631px;
+    height: 470px;
+    /* padding: 0px 149px; */
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+.aboutMeText {
+    
+    display: flex;
+    width: 658px;
+    height: 333px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+
+
 
 .material-icons.buttons {font-size: 22px;}
 .material-icons.md-24 {font-size: 24px;}
