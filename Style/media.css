@@ -220,7 +220,7 @@
 
 /* CONTACT FORM MEDIA QUERIES */
 
-    @media only screen and (max-width: 862px) {
+ @media only screen and (max-width: 862px) {
 
         #contactFormGrid {
             width: auto;
@@ -244,8 +244,7 @@
             align-items: center !important;
             justify-content: center !important;
             flex-wrap: wrap;
-            min-width: fit-content;
-            max-width: 289px !important;
+            width: 289px !important;
             }
         
         #messageInput {
@@ -257,9 +256,12 @@
         
         #contactForm {
             justify-content: center;
+            align-items: center;
+            align-content: center;
             display: flex;
             flex-direction: column;
             row-gap: 16px;
+            /* max-width: 300px; */
             /* grid-template-columns: fit-content;
             grid-template-rows: auto; */
             grid-template-areas:
@@ -268,6 +270,11 @@
             "messageInputContainer"
             "sendEmailButton";
             }
+
+        #formTitle {
+            justify-content: center;
+            text-align: left;
+        }
         }
 
     
