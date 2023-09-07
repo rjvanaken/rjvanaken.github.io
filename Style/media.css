@@ -98,20 +98,6 @@
 
 
 
-@media only screen and (max-width: 1200px) {
-
-    #heroContent {
-        margin: 0px 0px;
-    }
-    
-    #navigation {
-        padding-right: 45px;
-    }
-    #rvaLogo {
-        padding-left: 45px
-    }
-
-
 /* For extremely small screen devices (1000px and below) */
 @media only screen and (max-width: 1000px) {
 }
