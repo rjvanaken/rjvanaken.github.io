@@ -148,6 +148,7 @@ padding: 8px 8px;
 }
 
 
+
         @media only screen and (max-width: 900px) {
     
             #heroContent {
@@ -163,6 +164,8 @@ padding: 8px 8px;
                 padding-left: 45px;
             }
         }
+
+
 
 /* For extremely small screen devices (1000px and below) */
 @media only screen and (max-width: 1000px) {
@@ -190,6 +193,101 @@ padding: 8px 8px;
 
 
 /* FOOTER QUERIES */
+
+
+@media only screen and (max-width: 700px) {
+    
+    #footer p {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footerGrid {
+        background-color: #799491;
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        width: auto;
+        align-items: center;
+        margin: 0px !important;
+        
+        /* justify-content: space-between; */
+    }
+    
+    #rvaLogoFooter {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-bottom: 8px;
+        /*     padding-bottom: 16px; */
+        padding-left: 0px;
+        margin: 0px 5%;
+        
+    }
+    
+    #copyright {
+        color: #FEFCF9
+    }
+    #footerContainer {
+        /* align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; */
+        display: flex;
+        flex-direction: column-reverse;
+        /* padding-right: 115px; */
+        width: 100%;
+        row-gap: 8px;
+        align-items: center;
+        /* justify-content: space-between; */
+        align-content: flex-start;
+        height: auto;
+        padding-left: 0px;
+    }
+    #copyright {
+        width: 100%;
+        text-align: center;
+    }   
+
+    
+    #socialContainer {
+        display: flex;
+        flex-direction: row;
+        /* padding-left: 45%; */
+        padding-top: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px 5%;
+        width: 144px;
+        justify-content: space-between;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+    }
+    
+    /* Medium screen devices (768px and above) */
+    @media only screen and (min-width: 768px) {
+    }
+    
+    /* Big screen devices (889px and above) */
+    @media only screen and (min-width: 889px) {
+    
+    }
+    
+    /* Extra big screen devices (1200px and above) */
+    @media only screen and (min-width: 1200px), (max-width: 1310px) {
+    }
+    /* and even larger (1410px and below) */
+    @media only screen and (max-width: 1410px) {}
+    
+
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+
 
 @media only screen and (max-width: 700px) {
     
@@ -284,7 +382,7 @@ padding: 8px 8px;
 
 /* CONTACT FORM MEDIA QUERIES */
 
-    @media only screen and (max-width: 862px) {
+ @media only screen and (max-width: 862px) {
 
         #contactFormGrid {
             width: auto;
