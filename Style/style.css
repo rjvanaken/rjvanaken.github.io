@@ -45,6 +45,9 @@ body {
     font-weight: 600;
     color: #464545;
 }
+#mobileMenu {
+    display: none;
+}
 
 a.navLink {
     text-decoration: none;
@@ -251,11 +254,11 @@ a.navLink:active {
     border-radius: 15px;
     border: 1px solid #C7C5C3;
     padding: 40px 40px;
-    justify-content: space-around;
+    justify-content: space-between;
     width: auto;
     align-content: center;
     min-height: 390px;
-    max-height: auto;
+    max-height: 500px;
 }
 
 .projectInfo {
@@ -263,14 +266,14 @@ a.navLink:active {
     display: flex;
     flex-direction: column;
     align-items: left;
-    max-height: 390px;
 }
 
 .projectDetails {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    max-height: 390px;
     align-items: center;
+    max-height: 390px;
+
 }
 
 .tagContainer {
@@ -324,6 +327,7 @@ a.navLink:active {
 
 .projectImage {
     margin-right: 48px;
+    /* height: 500px; */
   
 
 
