@@ -9,6 +9,11 @@
 /* SKILL GRID MEDIA QUERIES */
 
 /* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 400px) {
+#heroGrid {
+padding: 8px 8px;
+}}
+
 @media only screen and (max-width: 700px) {
 
 
@@ -21,7 +26,6 @@
         background-size: cover;
         background-position: 0%;
         justify-content: center;
-        padding: 32px 32px;
         padding-bottom: 0;
         box-shadow: inset 0px 2px 4px rgba(70, 69, 69, 0.25);
         /* border-radius: 15px 15px 0px 0px; */
@@ -63,6 +67,21 @@
         display: none;
     }
 
+    #navHome, #navResume, #navAboutMe {
+        display: none;
+    }
+    #mobileMenu {
+        display: block;
+    }
+    #header {
+        height: 56px;
+    }
+    #rvaLogo {
+        width: 67px;
+        height: 40px;
+
+        
+    }
 
 
 
@@ -126,22 +145,24 @@
     .projectDetails {
         min-height: auto;  
     }
+}
 
 
-
-@media only screen and (max-width: 1200px) {
-
-    #heroContent {
-        margin: 0px 0px;
-    }
+        @media only screen and (max-width: 900px) {
     
-    #navigation {
-        padding-right: 45px;
-    }
-    #rvaLogo {
-        padding-left: 45px
-    }
-
+            #heroContent {
+                margin: 0px 0px;
+            }
+    
+            #navigation {
+                display: flex;
+                padding-right: 45px;
+            }
+    
+            #rvaLogo {
+                padding-left: 45px;
+            }
+        }
 
 /* For extremely small screen devices (1000px and below) */
 @media only screen and (max-width: 1000px) {
@@ -340,4 +361,4 @@
     @media only screen and (min-width: 1200px), (max-width: 1310px) {
     }
     /* and even larger (1410px and below) */
-    @media only screen and (max-width: 1410px) {}}}
+    @media only screen and (max-width: 1410px) {}

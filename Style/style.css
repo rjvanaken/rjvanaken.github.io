@@ -45,6 +45,9 @@ body {
     font-weight: 600;
     color: #464545;
 }
+#mobileMenu {
+    display: none;
+}
 
 a.navLink {
     text-decoration: none;
