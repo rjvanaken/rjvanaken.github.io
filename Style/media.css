@@ -14,6 +14,30 @@
 padding: 8px 8px;
 }}
 
+
+@media only screen and (max-width: 600px) {
+
+#mobileNav {
+    border-top: 2px;
+}
+
+a.icon:link {
+    color: #464545;    
+}
+
+a.icon:visited {
+    color: #464545;    
+}
+a.icon:hover {
+    color: #464545;     
+}
+a.icon:active {
+    color: #6f2f52;
+}}
+
+
+
+
 @media only screen and (max-width: 700px) {
 
 
