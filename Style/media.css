@@ -10,498 +10,215 @@
 
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 450px) {
-#heroGrid {
-padding: 8px 8px;
-}}
-
-@media only screen and (max-width: 600px) {
-
-    a.icon:hover {
-        color: #464545;     
+    #heroGrid {
+    padding: 8px 8px;
     }}
     
-
-@media only screen and (max-width: 750px) {
-
-
-    #heroGrid {
-        background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
-        /* background-image: url("../Style/Images/hero background full.png"); */
-        /* height: 464px; */
-        width: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0%;
-        justify-content: center;
-        padding-bottom: 0;
-        box-shadow: inset 0px 2px 4px rgba(70, 69, 69, 0.25);
-        /* border-radius: 15px 15px 0px 0px; */
+    @media only screen and (max-width: 600px) {
+    
+        a.icon:hover {
+            color: #464545;     
+        }}
         
-    }
-    #heroContent {
-        display: grid;
-        grid-gap: 32px;
-        grid-template-columns: 1fr 1fr;
-        background: rgba(254, 252, 249, 0.84);
-        border-radius: 15px 15px 0px 0px;
-        padding: 45px 64px;
-        width: auto;
-        margin: 0px 0px;
     
-    }
-    div#heroContent {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #heroIntro {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        width: auto;
-        
-    }
-    #heroButtons {
-        display: grid;
-        /* grid-gap: 16px; */
-        grid-template-columns: 1fr 1fr;
-        width: max-content;
-        height: 45px;
-    }
-
-    #heroImage {
-        display: none;
-    }
-
-    #navHome, #navResume, #navAboutMe {
-        display: none;
-    }
-    #header {
-        height: 56px;
-    }
-    #rvaLogo {
-        width: 67px;
-        height: 40px;
-    }
-
-    #hamburgerMenu {
-        visibility: visible;
-        display: block;
-    }
-
-
-
-#siteContent {
-    max-width: 600px;
-    margin: auto;
-}
-
-    #cardContainer {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 96px auto;
-        align-items: center;
-        justify-content: center;
-    }
-    #accessibility {
-        margin: 40px 0px !important; 
-    }
-    .selectedSkill {
-        min-height: 265px;
-        max-height: 265px;
-        border: 1px solid #C7C5C3;
-        border-radius: 15px;
-        background-color: white;
-        align-items: center;
-        max-width: 332px !important;
-        min-width: 332px;
-        flex: none;
-    }
-
-
-/* PROJECT CARD  */
-
-    #projectGrid {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        grid-gap: 10px;
-        /* flex-direction: column; */
-        justify-content: flex-start;
-        max-width: 376px;
-        min-width: 332px;
-}
-    .projectCard {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 630px !important;
-
-    }
-    .project1, .project2, .project3 {
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
-        justify-content: flex-start;
-        max-height: none;
-        min-height: none;
-    }
-    .tagContainer {
-        flex-direction: column;
-    }
-    .projectDetails {
-        min-height: auto;  
-    }
-}
-
-
-
-        @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 750px) {
     
-            #heroContent {
-                margin: 0px 0px;
-            }
     
-            #navigation {
-                display: flex;
-                padding-right: 45px;
-            }
-    
-            #rvaLogo {
-                padding-left: 45px;
-            }
-        }
-
-
-
-/* For extremely small screen devices (1000px and below) */
-@media only screen and (max-width: 1000px) {
-
-    #cardContainer {
-        display: flex;
-        flex-wrap: wrap;
-        overflow-wrap: normal;
-        margin: 96px auto;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    #accessibility {
-        margin: 40px 0px !important; 
-    }
-    .selectedSkill {
-        min-height: 265px;
-        max-height: 265px;
-        border: 1px solid #C7C5C3;
-        border-radius: 15px;
-        background-color: white;
-        align-items: center;
-        max-width: 332px !important;
-        min-width: 332px;
-        flex: none;
-    }
-    .projectCard {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 300px !important;
-    
-    }
-}
-
-
-@media only screen and (max-width: 850px) {
-.projectCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 600px !important;
-
-}}
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
-
-}
-
-/* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px), (max-width: 1310px) {
-}
-/* and even larger (1410px and below) */
-@media only screen and (max-width: 1410px) {}
-
-
-
-
-/* --------------------------------------------------------------------------------- */
-
-
-/* FOOTER QUERIES */
-
-
-@media only screen and (max-width: 703px) {
-    
-    #footer p {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #footerGrid {
-        background-color: #799491;
-        display: flex;
-        flex-direction: column;
-        height: 280px;
-        width: auto;
-        align-items: center;
-        margin: 0px !important;
-        
-        /* justify-content: space-between; */
-    }
-    
-    #rvaLogoFooter {
-        align-items: flex-start;
-        justify-content: flex-start;
-        padding-bottom: 8px;
-        /*     padding-bottom: 16px; */
-        padding-left: 0px;
-        margin: 0px 5%;
-        
-    }
-    
-    #copyright {
-        color: #FEFCF9
-    }
-    #footerContainer {
-        /* align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
-        display: flex;
-        flex-direction: column-reverse;
-        /* padding-right: 115px; */
-        width: 100%;
-        row-gap: 8px;
-        align-items: center;
-        /* justify-content: space-between; */
-        align-content: flex-start;
-        height: auto;
-        padding-left: 0px;
-    }
-    #copyright {
-        width: 100%;
-        text-align: center;
-    }   
-
-    
-    #socialContainer {
-        display: flex;
-        flex-direction: row;
-        /* padding-left: 45%; */
-        padding-top: 24px;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0px 5%;
-        width: 144px;
-        justify-content: space-between;
-    }
-    
-    @media only screen and (max-width: 1000px) {
-    }
-    
-    /* Medium screen devices (768px and above) */
-    @media only screen and (min-width: 768px) {
-    }
-    
-    /* Big screen devices (889px and above) */
-    @media only screen and (min-width: 889px) {
-    
-    }
-    
-    /* Extra big screen devices (1200px and above) */
-    @media only screen and (min-width: 1200px), (max-width: 1310px) {
-    }
-    /* and even larger (1410px and below) */
-    @media only screen and (max-width: 1410px) {}
-    
-
-}
-
-
-/* --------------------------------------------------------------------------------- */
-
-
-
-
-@media only screen and (max-width: 700px) {
-    
-    #footer p {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #footerGrid {
-        background-color: #799491;
-        display: flex;
-        flex-direction: column;
-        height: 280px;
-        width: auto;
-        align-items: center;
-        margin: 0px !important;
-        
-        /* justify-content: space-between; */
-    }
-    
-    #rvaLogoFooter {
-        align-items: flex-start;
-        justify-content: flex-start;
-        padding-bottom: 8px;
-        /*     padding-bottom: 16px; */
-        padding-left: 0px;
-        margin: 0px 5%;
-        
-    }
-    
-    #copyright {
-        color: #FEFCF9
-    }
-    #footerContainer {
-        /* align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
-        display: flex;
-        flex-direction: column-reverse;
-        /* padding-right: 115px; */
-        width: 100%;
-        row-gap: 8px;
-        align-items: center;
-        /* justify-content: space-between; */
-        align-content: flex-start;
-        height: auto;
-        /* padding-left: 90px;
-        padding-right: 90px; */
-        padding: 0px;
-    }
-    #copyright {
-        width: 100%;
-        text-align: center;
-    }   
-
-    
-    #socialContainer {
-        display: flex;
-        flex-direction: row;
-        /* padding-left: 45%; */
-        padding-top: 24px;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0px 5%;
-        width: 144px;
-        justify-content: space-between;
-    }
-    
-    @media only screen and (max-width: 1000px) {
-    }
-    
-    /* Medium screen devices (768px and above) */
-    @media only screen and (min-width: 768px) {
-    }
-    
-    /* Big screen devices (889px and above) */
-    @media only screen and (min-width: 889px) {
-    
-    }
-    
-    /* Extra big screen devices (1200px and above) */
-    @media only screen and (min-width: 1200px), (max-width: 1310px) {
-    }
-    /* and even larger (1410px and below) */
-    @media only screen and (max-width: 1410px) {}
-    
-
-}
-/* --------------------------------------------------------------------------------- */
-
-/* CONTACT FORM MEDIA QUERIES */
-
- @media only screen and (max-width: 862px) {
-
-        #contactFormGrid {
+        #heroGrid {
+            background-image: url("../Style/Images/mitchell-luo-oLw9R4GxGug-unsplash.png");
+            /* background-image: url("../Style/Images/hero background full.png"); */
+            /* height: 464px; */
             width: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center !important;
-            justify-content: left !important;
-            flex-wrap: wrap;
-            column-gap: 16px;
-        }
-        #nameEmailContainer {
-            display: flex;
-            flex-direction: column;
-            align-items: center !important;
-            justify-content: left !important;
-            flex-wrap: wrap;
-            column-gap: 16px;
-            /* grid-template-columns: max-content; */
-            grid-template-areas: 
-            "nameContainer emailContainer";
-            grid-area: nameEmailContainer;  
-            }
-        
-        #messageInputContainer  {
-            display: flex;
-            flex-direction: column;
-            align-items: center !important;
-            justify-content: left !important;
-            flex-wrap: wrap;
-            column-gap: 16px;
-            }
-        
-        #messageInput {
-            width: 289px;
-            display: flex;
-            align-content: center;
-
-            }
-        
-        #contactForm {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0%;
             justify-content: center;
-            align-items: left;
-            align-content: center;
+            padding-bottom: 0;
+            box-shadow: inset 0px 2px 4px rgba(70, 69, 69, 0.25);
+            /* border-radius: 15px 15px 0px 0px; */
+            
+        }
+        #heroContent {
+            display: grid;
+            grid-gap: 32px;
+            grid-template-columns: 1fr 1fr;
+            background: rgba(254, 252, 249, 0.84);
+            border-radius: 15px 15px 0px 0px;
+            padding: 45px 64px;
+            width: auto;
+            margin: 0px 0px;
+        
+        }
+        div#heroContent {
             display: flex;
-            flex-direction: column;
-            row-gap: 16px;
-            /* max-width: 300px; */
-            /* grid-template-columns: fit-content;
-            grid-template-rows: auto; */
-            grid-template-areas:
-            "formTitle" 
-            "nameEmailContainer"
-            "messageInputContainer"
-            "sendEmailButton";
-            }
-
-        #formTitle {
             justify-content: center;
-            align-items: left;
+            align-items: center;
+        }
+        #heroIntro {
+            justify-content: center;
             display: flex;
             flex-direction: column;
+            align-items: left;
+            width: auto;
+            
         }
+        #heroButtons {
+            display: grid;
+            /* grid-gap: 16px; */
+            grid-template-columns: 1fr 1fr;
+            width: max-content;
+            height: 45px;
         }
-
+    
+        #heroImage {
+            display: none;
+        }
+    
+        #navHome, #navResume, #navAboutMe {
+            display: none;
+        }
+        #header {
+            height: 56px;
+        }
+        #rvaLogo {
+            width: 67px;
+            height: 40px;
+        }
+    
+        #hamburgerMenu {
+            visibility: visible;
+            display: block;
+        }
+    
+    
+    
+    #siteContent {
+        max-width: 600px;
+        margin: auto;
+    }
+    
+        #cardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 96px auto;
+            align-items: center;
+            justify-content: center;
+        }
+        #accessibility {
+            margin: 40px 0px !important; 
+        }
+        .selectedSkill {
+            min-height: 265px;
+            max-height: 265px;
+            border: 1px solid #C7C5C3;
+            border-radius: 15px;
+            background-color: white;
+            align-items: center;
+            max-width: 332px !important;
+            min-width: 332px;
+            flex: none;
+        }
+    
+    
+    /* PROJECT CARD  */
+    
+        #projectGrid {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            grid-gap: 10px;
+            /* flex-direction: column; */
+            justify-content: flex-start;
+            max-width: 376px;
+            min-width: 332px;
+    }
+        .projectCard {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 630px !important;
+    
+        }
+        .project1, .project2, .project3 {
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            justify-content: flex-start;
+            max-height: none;
+            min-height: none;
+        }
+        .tagContainer {
+            flex-direction: column;
+        }
+        .projectDetails {
+            min-height: auto;  
+        }
+    }
+    
+    
+    
+            @media only screen and (max-width: 900px) {
+        
+                #heroContent {
+                    margin: 0px 0px;
+                }
+        
+                #navigation {
+                    display: flex;
+                    padding-right: 45px;
+                }
+        
+                #rvaLogo {
+                    padding-left: 45px;
+                }
+            }
     
     
     
     /* For extremely small screen devices (1000px and below) */
     @media only screen and (max-width: 1000px) {
+    
+        #cardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            overflow-wrap: normal;
+            margin: 96px auto;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        #accessibility {
+            margin: 40px 0px !important; 
+        }
+        .selectedSkill {
+            min-height: 265px;
+            max-height: 265px;
+            border: 1px solid #C7C5C3;
+            border-radius: 15px;
+            background-color: white;
+            align-items: center;
+            max-width: 332px !important;
+            min-width: 332px;
+            flex: none;
+        }
+        .projectCard {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 300px !important;
+        
+        }
     }
     
+    
+    @media only screen and (max-width: 850px) {
+    .projectCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 600px !important;
+    
+    }}
     /* Medium screen devices (768px and above) */
     @media only screen and (min-width: 768px) {
     }
@@ -516,3 +233,287 @@ padding: 8px 8px;
     }
     /* and even larger (1410px and below) */
     @media only screen and (max-width: 1410px) {}
+    
+    
+    
+    
+    /* --------------------------------------------------------------------------------- */
+    
+    
+    /* FOOTER QUERIES */
+    
+    
+    @media only screen and (max-width: 703px) {
+        
+        #footer p {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #footerGrid {
+            background-color: #799491;
+            display: flex;
+            flex-direction: column;
+            height: 280px;
+            width: auto;
+            align-items: center;
+            margin: 0px !important;
+            
+            /* justify-content: space-between; */
+        }
+        
+        #rvaLogoFooter {
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-bottom: 8px;
+            /*     padding-bottom: 16px; */
+            padding-left: 0px;
+            margin: 0px 5%;
+            
+        }
+        
+        #copyright {
+            color: #FEFCF9
+        }
+        #footerContainer {
+            /* align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; */
+            display: flex;
+            flex-direction: column-reverse;
+            /* padding-right: 115px; */
+            width: 100%;
+            row-gap: 8px;
+            align-items: center;
+            /* justify-content: space-between; */
+            align-content: flex-start;
+            height: auto;
+            padding-left: 0px;
+        }
+        #copyright {
+            width: 100%;
+            text-align: center;
+        }   
+    
+        
+        #socialContainer {
+            display: flex;
+            flex-direction: row;
+            /* padding-left: 45%; */
+            padding-top: 24px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin: 0px 5%;
+            width: 144px;
+            justify-content: space-between;
+        }
+        
+        @media only screen and (max-width: 1000px) {
+        }
+        
+        /* Medium screen devices (768px and above) */
+        @media only screen and (min-width: 768px) {
+        }
+        
+        /* Big screen devices (889px and above) */
+        @media only screen and (min-width: 889px) {
+        
+        }
+        
+        /* Extra big screen devices (1200px and above) */
+        @media only screen and (min-width: 1200px), (max-width: 1310px) {
+        }
+        /* and even larger (1410px and below) */
+        @media only screen and (max-width: 1410px) {}
+        
+    
+    }
+    
+    
+    /* --------------------------------------------------------------------------------- */
+    
+    
+    
+    
+    @media only screen and (max-width: 700px) {
+        
+        #footer p {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #footerGrid {
+            background-color: #799491;
+            display: flex;
+            flex-direction: column;
+            height: 280px;
+            width: auto;
+            align-items: center;
+            margin: 0px !important;
+            
+            /* justify-content: space-between; */
+        }
+        
+        #rvaLogoFooter {
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-bottom: 8px;
+            /*     padding-bottom: 16px; */
+            padding-left: 0px;
+            margin: 0px 5%;
+            
+        }
+        
+        #copyright {
+            color: #FEFCF9
+        }
+        #footerContainer {
+            /* align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; */
+            display: flex;
+            flex-direction: column-reverse;
+            /* padding-right: 115px; */
+            width: 100%;
+            row-gap: 8px;
+            align-items: center;
+            /* justify-content: space-between; */
+            align-content: flex-start;
+            height: auto;
+            /* padding-left: 90px;
+            padding-right: 90px; */
+            padding: 0px;
+        }
+        #copyright {
+            width: 100%;
+            text-align: center;
+        }   
+    
+        
+        #socialContainer {
+            display: flex;
+            flex-direction: row;
+            /* padding-left: 45%; */
+            padding-top: 24px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin: 0px 5%;
+            width: 144px;
+            justify-content: space-between;
+        }
+        
+        @media only screen and (max-width: 1000px) {
+        }
+        
+        /* Medium screen devices (768px and above) */
+        @media only screen and (min-width: 768px) {
+        }
+        
+        /* Big screen devices (889px and above) */
+        @media only screen and (min-width: 889px) {
+        
+        }
+        
+        /* Extra big screen devices (1200px and above) */
+        @media only screen and (min-width: 1200px), (max-width: 1310px) {
+        }
+        /* and even larger (1410px and below) */
+        @media only screen and (max-width: 1410px) {}
+        
+    
+    }
+    /* --------------------------------------------------------------------------------- */
+    
+    /* CONTACT FORM MEDIA QUERIES */
+    
+     @media only screen and (max-width: 862px) {
+    
+            #contactFormGrid {
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: left !important;
+                flex-wrap: wrap;
+                column-gap: 16px;
+            }
+            #nameEmailContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: left !important;
+                flex-wrap: wrap;
+                column-gap: 16px;
+                /* grid-template-columns: max-content; */
+                grid-template-areas: 
+                "nameContainer emailContainer";
+                grid-area: nameEmailContainer;  
+                }
+            
+            #messageInputContainer  {
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: left !important;
+                flex-wrap: wrap;
+                column-gap: 16px;
+                }
+            
+            #messageInput {
+                width: 289px;
+                display: flex;
+                align-content: center;
+    
+                }
+            
+            #contactForm {
+                justify-content: center;
+                align-items: left;
+                align-content: center;
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+                /* max-width: 300px; */
+                /* grid-template-columns: fit-content;
+                grid-template-rows: auto; */
+                grid-template-areas:
+                "formTitle" 
+                "nameEmailContainer"
+                "messageInputContainer"
+                "sendEmailButton";
+                }
+    
+            #formTitle {
+                justify-content: center;
+                align-items: left;
+                display: flex;
+                flex-direction: column;
+            }
+            }
+    
+        
+        
+        
+        /* For extremely small screen devices (1000px and below) */
+        @media only screen and (max-width: 1000px) {
+        }
+        
+        /* Medium screen devices (768px and above) */
+        @media only screen and (min-width: 768px) {
+        }
+        
+        /* Big screen devices (889px and above) */
+        @media only screen and (min-width: 889px) {
+        
+        }
+        
+        /* Extra big screen devices (1200px and above) */
+        @media only screen and (min-width: 1200px), (max-width: 1310px) {
+        }
+        /* and even larger (1410px and below) */
+        @media only screen and (max-width: 1410px) {}
+    
