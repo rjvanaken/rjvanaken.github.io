@@ -60,10 +60,11 @@ a.icon:visited {
 a.icon:hover {
     color: #464545;   
 }
-a.icon:active {
-    color: #A2798F;  
-}
 a.icon:focus {
     color: #464545;     
+}
+
+a.icon:active {
+    color: #A2798F;  
 }
 
