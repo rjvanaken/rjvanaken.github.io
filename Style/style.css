@@ -45,9 +45,14 @@ body {
     font-weight: 600;
     color: #464545;
 }
-#mobileMenu {
-    display: none;
+#hamburgerMenu {
+    visibility: hidden;
 }
+
+#mobileNav {
+    visibility: hidden;
+}
+
 
 a.navLink {
     text-decoration: none;

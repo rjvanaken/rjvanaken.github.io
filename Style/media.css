@@ -70,7 +70,7 @@ padding: 8px 8px;
     #navHome, #navResume, #navAboutMe {
         display: none;
     }
-    #mobileMenu {
+    #mobileNav {
         display: block;
     }
     #header {
@@ -79,8 +79,11 @@ padding: 8px 8px;
     #rvaLogo {
         width: 67px;
         height: 40px;
+    }
 
-        
+    #hamburgerMenu {
+        visibility: visible;
+        display: flex;
     }
 
 
