@@ -45,9 +45,10 @@ body {
     font-weight: 600;
     color: #464545;
 }
-#mobileMenu {
-    display: none;
-}
+
+
+
+
 
 a.navLink {
     text-decoration: none;
@@ -68,26 +69,55 @@ div.navSelected {
     border-radius: 2px;
 }
 
-
-a.navLink:link {
+a.navLink:link, a.mobileNavLink:link {
     color: #464545;
 }
 
-a.navLink:visited {
-    color: inherit;
+a.navLink:visited, a.mobileNavLink:visited {
+    color: #464545;
 }
 
-a.navLink:hover {
+a.navLink:hover, a.mobileNavLink:hover {
     background-color: #EBDADA;
 }
 /* a.navLink:focus {
 } */
 
-a.navLink:active {
+a.navLink:active, a.mobileNavLink:active {
     color:#A2798F;
     background-color: #EBDADA;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+/* MOBILE NAV */
+
+
+#hamburgerMenu {
+    display: none;
+}
+#closeMenu {
+    display: none;
+}
+.icon {
+    text-decoration: none;
+}
+
+#mobileNav, #mobileNavContainer {
+    display: none;
+}
+
+
+
+
+
+
+
 
 /* HERO SECTION */
 
@@ -787,8 +817,6 @@ a#outline.secondary.button:active {
     outline: none;
     font-weight: 600;
 }
-
-
 
 a.primaryButton.button:link, input.primaryButton.button:link {
     color: #FEFCF9;
