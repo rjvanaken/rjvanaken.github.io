@@ -74,6 +74,17 @@ div.navSelected {
     border-radius: 2px;
 }
 
+/* img#hamburgerMenu:link {
+    color: #464545;    
+}
+
+img#hamburgerMenu:visited {
+    color: #464545;    
+}
+img#hamburgerMenu:hover {
+    color: #A2798F;    
+} */
+
 
 a.navLink:link, a.mobileNavLink:link {
     color: #464545;
@@ -793,8 +804,6 @@ a#outline.secondary.button:active {
     outline: none;
     font-weight: 600;
 }
-
-
 
 a.primaryButton.button:link, input.primaryButton.button:link {
     color: #FEFCF9;
