@@ -129,7 +129,7 @@ padding: 8px 8px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        height: auto !important;
+        height: 630px !important;
 
     }
     .project1, .project2, .project3 {
@@ -137,7 +137,8 @@ padding: 8px 8px;
         flex-direction: column;
         height: fit-content;
         justify-content: flex-start;
-        min-height: fit-content;
+        max-height: none;
+        min-height: none;
     }
     .tagContainer {
         flex-direction: column;
@@ -169,6 +170,30 @@ padding: 8px 8px;
 
 /* For extremely small screen devices (1000px and below) */
 @media only screen and (max-width: 1000px) {
+
+    #cardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-wrap: normal;
+        margin: 96px auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #accessibility {
+        margin: 40px 0px !important; 
+    }
+    .selectedSkill {
+        min-height: 265px;
+        max-height: 265px;
+        border: 1px solid #C7C5C3;
+        border-radius: 15px;
+        background-color: white;
+        align-items: center;
+        max-width: 332px !important;
+        min-width: 332px;
+        flex: none;
+    }
 }
 
 /* Medium screen devices (768px and above) */
