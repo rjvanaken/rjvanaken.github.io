@@ -465,8 +465,8 @@
                 }
             
             #contactForm {
-                justify-content: center;
-                align-items: left;
+                align-items: center !important;
+                justify-content: left !important;
                 align-content: center;
                 display: flex;
                 flex-direction: column;
@@ -482,10 +482,14 @@
                 }
     
             #formTitle {
-                justify-content: center;
-                align-items: left;
+                align-items: center !important;
+                justify-content: left !important;
                 display: flex;
                 flex-direction: column;
+            }
+            input#sendEmailButton {
+                align-items: center !important;
+                justify-content: left !important;
             }
             }
     
