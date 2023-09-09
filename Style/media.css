@@ -411,6 +411,12 @@ padding: 8px 8px;
 
         #contactFormGrid {
             width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center !important;
+            justify-content: left !important;
+            flex-wrap: wrap;
+            column-gap: 16px;
         }
         #nameEmailContainer {
             display: flex;
@@ -426,12 +432,12 @@ padding: 8px 8px;
             }
         
         #messageInputContainer  {
-            display: flex !important;
-            flex-direction: row;
+            display: flex;
+            flex-direction: column;
             align-items: center !important;
-            justify-content: center !important;
+            justify-content: left !important;
             flex-wrap: wrap;
-            width: 289px !important;
+            column-gap: 16px;
             }
         
         #messageInput {
@@ -443,7 +449,7 @@ padding: 8px 8px;
         
         #contactForm {
             justify-content: center;
-            align-items: center;
+            align-items: left;
             align-content: center;
             display: flex;
             flex-direction: column;
@@ -460,7 +466,9 @@ padding: 8px 8px;
 
         #formTitle {
             justify-content: center;
-            text-align: left;
+            align-items: left;
+            display: flex;
+            flex-direction: column;
         }
         }
 
