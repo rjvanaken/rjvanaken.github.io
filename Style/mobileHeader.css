@@ -63,4 +63,7 @@ a.icon:hover {
 a.icon:active {
     color: #A2798F;  
 }
+a.icon:focus {
+    color: #464545;     
+}
 
