@@ -6,6 +6,7 @@
   <link href="Style\style.css" rel="stylesheet" type="text/css">
   <link href="Style\media.css" rel="stylesheet" type="text/css">
   <link href="Style\mobileHeader.css" rel="stylesheet" type="text/css">
+  <script src="index.js" type="text/javascript"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -19,9 +20,9 @@
     <img id="rvaLogo" src="/Style/Images/RVA Logo.svg" alt="RVA Logo">
     <div id="navigation">
       <div>
-        <a>
-        <img id="hamburgerMenu" src="/Style/Images/Menu.svg">
-        </a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <span class="material-icons-round buttons buttonIcon" id="hamburgerMenu">menu</span>
+          <span class="material-icons-round buttons buttonIcon" id="closeMenu">close</span></a>
       </div>
       <div id="navHome" class="navSelected">
       <a class="navLink" href="#">Home</a>

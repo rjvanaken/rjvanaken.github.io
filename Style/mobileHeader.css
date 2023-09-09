@@ -49,3 +49,18 @@ p.mobileNavSelected {
 #mobileNav {
     border-top: 2px;
 }
+
+a.icon:link {
+    color: #464545;    
+}
+
+a.icon:visited {
+    color: #464545;    
+}
+a.icon:hover {
+    color: #A2798F;    
+}
+a.icon:active {
+    color: #6f2f52;
+}
+

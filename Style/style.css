@@ -45,15 +45,10 @@ body {
     font-weight: 600;
     color: #464545;
 }
-#hamburgerMenu {
-    visibility: hidden;
-}
 
-/* #mobileNav, #mobileNavContainer {
-    visibility: hidden;
-    display: none;
-}
- */
+
+
+
 
 a.navLink {
     text-decoration: none;
@@ -74,18 +69,6 @@ div.navSelected {
     border-radius: 2px;
 }
 
-/* img#hamburgerMenu:link {
-    color: #464545;    
-}
-
-img#hamburgerMenu:visited {
-    color: #464545;    
-}
-img#hamburgerMenu:hover {
-    color: #A2798F;    
-} */
-
-
 a.navLink:link, a.mobileNavLink:link {
     color: #464545;
 }
@@ -105,6 +88,36 @@ a.navLink:active, a.mobileNavLink:active {
     background-color: #EBDADA;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+/* MOBILE NAV */
+
+
+#hamburgerMenu {
+    display: none;
+}
+#closeMenu {
+    display: none;
+}
+.icon {
+    text-decoration: none;
+}
+
+#mobileNav, #mobileNavContainer {
+    display: none;
+}
+
+
+
+
+
+
+
 
 /* HERO SECTION */
 
