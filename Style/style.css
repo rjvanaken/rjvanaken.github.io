@@ -49,10 +49,11 @@ body {
     visibility: hidden;
 }
 
-#mobileNav {
+/* #mobileNav, #mobileNavContainer {
     visibility: hidden;
+    display: none;
 }
-
+ */
 
 a.navLink {
     text-decoration: none;
